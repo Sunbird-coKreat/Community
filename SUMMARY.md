@@ -43,7 +43,6 @@
   * [Contribution Service](use/developer-installation/contribution-service.md)
   * [Contributor registry](use/developer-installation/contributor-registry.md)
 * [Release notes](use/release-notes/README.md)
-  * [Contribution Registry](use/release-notes/contribution-registry.md)
   * [coKreat - Release v4.8.0 (Upcoming)](use/release-notes/cokreat-release-v4.8.0-upcoming.md)
   * [coKreat Release v4.7.0(Live)](use/release-notes/cokreat-release-v4.7.0-live.md)
 
