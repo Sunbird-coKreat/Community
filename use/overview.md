@@ -1,4 +1,3 @@
 # Overview
 
-![Deployment View](../.gitbook/assets/coKreat.png)
-
+![](../.gitbook/assets/coKreat\_deployment\_view.png)
