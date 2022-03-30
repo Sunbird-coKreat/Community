@@ -32,10 +32,6 @@
 * [Try it out](learn/try-it-out.md)
 * [Product Roadmap](learn/product-roadmap.md)
 
-## ENGAGE
-
-* [Page 2](engage/page-2.md)
-
 ## USE
 
 * [Overview](use/overview.md)
@@ -45,6 +41,10 @@
 * [Release notes](use/release-notes/README.md)
   * [coKreat - Release v4.8.0 (Upcoming)](use/release-notes/cokreat-release-v4.8.0-upcoming.md)
   * [coKreat Release v4.7.0(Live)](use/release-notes/cokreat-release-v4.7.0-live.md)
+
+## ENGAGE
+
+* [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
 
 ## Archived
 
