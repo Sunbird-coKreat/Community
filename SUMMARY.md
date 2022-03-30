@@ -41,6 +41,7 @@
 * [Developer Installation](use/developer-installation/README.md)
   * [Reference coKreat Web App](use/developer-installation/reference-cokreat-web-app.md)
   * [Contribution Service](use/developer-installation/contribution-service.md)
+  * [Contributor registry](use/developer-installation/contributor-registry.md)
 * [Release notes](use/release-notes/README.md)
   * [Contribution Registry](use/release-notes/contribution-registry.md)
   * [coKreat - Release v4.8.0 (Upcoming)](use/release-notes/cokreat-release-v4.8.0-upcoming.md)
