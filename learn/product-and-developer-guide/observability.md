@@ -2,9 +2,11 @@
 
 Below are the list of data products provided by this building block. These data products are created by using the data service component from Sunbird Obsrv.
 
-1. **Collection Level gap report** - This report provides details of the number of assets(contents) that are linked to each collection. It helps project administrators track content availability vs. the needs at a collection level.
+### **Collection Level gap report**&#x20;
 
-| Sl.no | Columns                              | Columns                                                                                                         |
+This report provides details of the number of assets(contents) that are linked to each collection. It helps project administrators track content availability vs. the needs at a collection level.
+
+| Sl.no | Column Name                          | Description                                                                                                     |
 | ----- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | 1     | Board                                | It defines the framework metadata board tagged to the Primary collection category.                              |
 | 2     | Medium                               | It defines the framework attribute Medium tagged to the Primary collection category                             |
@@ -39,13 +41,15 @@ Below are the list of data products provided by this building block. These data 
 | 31    | Number of TextBook                   | This columns Provide the count of of the content and its content type linked to the Primary collection category |
 | 32    | Number of eTextBook                  | This columns Provide the count of of the content and its content type linked to the Primary collection category |
 
+****
+
+### **Folder Level gap report**&#x20;
+
+This report provides details of the number of assets(contents) linked against each folder of the Collections. It helps project administrators track content availability vs. the needs at a chapter level.
 
 
-**2. Folder Level gap report** - This report provides details of the number of assets(contents) linked against each folder of the Collections. It helps project administrators track content availability vs. the needs at a chapter level.
 
-
-
-| Sl.no | Columns                              | Columns                                                                                                         |
+| Sl.no | Column Name                          | Description                                                                                                     |
 | ----- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | 1     | Board                                | It defines the framework metadata board tagged to the Primary collection category.                              |
 | 2     | Medium                               | It defines the framework attribute Medium tagged to the Primary collection category                             |
@@ -80,7 +84,9 @@ Below are the list of data products provided by this building block. These data 
 | 31    | Number of TextBook                   | This columns Provide the count of of the content and its content type linked to the Primary collection category |
 | 32    | Number of eTextBook                  | This columns Provide the count of of the content and its content type linked to the Primary collection category |
 
-**3. Visitor’s report** - This report provides details of the number of visitors to help you understand the traffic funnel and manage/expand the outreach campaign.
+### **Visitor’s report**
+
+This report provides details of the number of visitors to help you understand the traffic funnel and manage/expand the outreach campaign.
 
 | Sl no | Column Name   | Description                                                                                       |
 | ----- | ------------- | ------------------------------------------------------------------------------------------------- |
@@ -90,9 +96,9 @@ Below are the list of data products provided by this building block. These data 
 
 
 
-**4. Project level funnel report** - This report provides the data of the Projects created and published by the sourcing organization. It has the following columns
+### **Project level funnel report**
 
-\<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
+This report provides the data of the Projects created and published by the sourcing organization. It has the following columns
 
 | Sl No | Column Name                                | Description                                                                                                   |
 | ----- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
@@ -107,13 +113,11 @@ Below are the list of data products provided by this building block. These data 
 | 9     | No. of contributions pending review        | Total no. of contributions to the project pending review by Sourcing Org till date                            |
 | 10    | No. of approved contributions              | Total no. of contributions to the project that are approved by Sourcing Org till date                         |
 
+### **Content details report**&#x20;
 
+This report provides details of all the assets(contents) that are contributed to across all projects. It helps administrators for multiple purposes like tracking the contribution or review status, as well as doing custom analysis related to the contributed content.
 
-**5. Content details report** - This report provides details of all the assets(contents) that are contributed to across all projects. It helps administrators for multiple purposes like tracking the contribution or review status, as well as doing custom analysis related to the contributed content.
-
-\<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
-
-| Sl. no | Columns             | Description                                                                                                                                                                                                                                                                                                                                                            |
+| Sl. no | Column Name         | Description                                                                                                                                                                                                                                                                                                                                                            |
 | ------ | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Project Name        | This column Provides the Project name                                                                                                                                                                                                                                                                                                                                  |
 | 2      | Project ID          | This column Provides the Project ID                                                                                                                                                                                                                                                                                                                                    |
@@ -133,13 +137,11 @@ Below are the list of data products provided by this building block. These data 
 | 16     | Creator Name        | This column Provides the name of the creator of the content                                                                                                                                                                                                                                                                                                            |
 | 17     | CreatedBy ID        | This column Provides the user Id of the creator of the content                                                                                                                                                                                                                                                                                                         |
 
-**6. Contribution usage metrics report** - This report provides details to the contributors on how many assets(contents) contributed are used, how much they are used(Usage details of the assets published).
+### **Contribution usage metrics report**&#x20;
 
+This report provides details to the contributors on how many assets(contents) contributed are used, how much they are used(Usage details of the assets published).
 
-
-\<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
-
-| Sl. no | Columns                   | Description                                                                                                               |
+| Sl. no | Column Name               | Description                                                                                                               |
 | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | 1      | Content id                | This column Provides the identifier of the Published content from cokreat portal to consumption portal                    |
 | 2      | Content Name              | This column Provides the identifier of the Published content's name from cokreat portal to consumption portal             |
