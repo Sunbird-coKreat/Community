@@ -1,3 +1,3 @@
 # Installation guide
 
-Coming soon!
+Coming Soon...

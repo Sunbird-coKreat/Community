@@ -44,6 +44,8 @@
 * [Release notes](use/release-notes/README.md)
   * [coKreat - Release v4.8.0 (Upcoming)](use/release-notes/cokreat-release-v4.8.0-upcoming.md)
   * [coKreat Release v4.7.0(Live)](use/release-notes/cokreat-release-v4.7.0-live.md)
+* [Learn More](use/learn-more/README.md)
+  * [Dependencies](use/learn-more/dependencies.md)
 
 ## ENGAGE
 
@@ -54,4 +56,3 @@
 * [Components](archived/components/README.md)
   * [Terminology](archived/components/terminology.md)
   * [Configuration of Editors](archived/components/configuration-of-editors.md)
-  * [Dependencies](archived/components/dependencies.md)
