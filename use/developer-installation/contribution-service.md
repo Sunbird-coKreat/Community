@@ -15,6 +15,8 @@ The steps to install contribution/program service, are given in here.
 
 {% embed url="https://github.com/Sunbird-Ed/program-service/tree/release-4.8.0#readme" %}
 
+![](../../.gitbook/assets/program\_service.jpg)
+
 ### Configuration
 
 | S. NO. | VARIABLE NAME                           | DESCRIPTION                                                                    | PURPOSE                                                                           | DEFAULT                            |

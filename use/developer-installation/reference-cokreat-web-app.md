@@ -13,6 +13,8 @@ The steps to install frontend web application of the co-kreat, are given in here
 
 {% embed url="https://github.com/Sunbird-Ed/creation-portal/tree/release-4.8.0#readme" %}
 
+![](../../.gitbook/assets/coKreat\_APP.jpg)
+
 ### Configuration
 
 Below is a list of environment variables with their default values, description and purpose as required to run the coKreat web app. To change default behavior, modify the variable value based on your requirements.
