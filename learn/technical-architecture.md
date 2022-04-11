@@ -1,6 +1,6 @@
 # Technical Architecture
 
-![Web Application](<../../.gitbook/assets/Web Application.png>)
+Below diagram shows list of components & building blocks deployed in coKreat and its dependent components in the sunbirdEd building block.
 
-![Contribution service](<../../.gitbook/assets/Contribution Service.png>)
+![](<../.gitbook/assets/coKreat (1).png>)
 
