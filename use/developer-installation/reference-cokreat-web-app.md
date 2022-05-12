@@ -67,3 +67,8 @@ Below is a list of environment variables with their default values, description 
 | 44     | sunbird\_processing\_kafka\_host            | Processing Kafka host URL                                                                               | To send Kafka messages to process Kafka host URL                                           |                                                              |
 | 45     | sunbird\_sso\_ kafka\_topic                 | Kafka topic for SSO                                                                                     | To send Kafka messages in SSO flow                                                         |                                                              |
 
+**Schemas:**
+
+coKreat maintains its own object schemas for knowlg and inQuiry components(services). Please find below for coKreat schemes
+
+{% embed url="https://github.com/Sunbird-Ed/creation-portal/tree/release-4.8.0/kp_schemas" %}
