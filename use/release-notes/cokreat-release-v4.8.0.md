@@ -1,10 +1,10 @@
-# coKreat - Release v4.8.0 (Upcoming)
+# coKreat - Release v4.8.0
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date         | Release Version |
-| ------- | -------------------- | --------------- |
-| coKreat | 04-04-22 (tentative) | v4.8.0          |
+| Project | Release Date | Release Version |
+| ------- | ------------ | --------------- |
+| coKreat | 04-04-22     | v4.8.0          |
 
 ### **Objectives of the coKreat release v4.8.0**
 
