@@ -24,11 +24,11 @@ This document contains information on the following new features and enhancement
 
 ****
 
-| SI No | JIRA ID                                                           | JIRA Issue Type | Description                                                                                               |
-| ----- | ----------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------- |
-| 1     | [SB-28206](https://project-sunbird.atlassian.net/browse/SB-28206) | Story           | Migration of Reference Web App to Angular 10                                                              |
-| 2     | [SB-29766](https://project-sunbird.atlassian.net/browse/SB-29766) | Story           | coKreat: Portal unit test coverage improvement                                                            |
-| 3     | [SB-28619](https://project-sunbird.atlassian.net/browse/SB-28619) | Story           | Workspace UI components                                                                                   |
-| 4     | [SB-26400](https://project-sunbird.atlassian.net/browse/SB-26400) | Bug             | LastpublishedBy value is not getting updated for newly created and dock to diksha Published Question set. |
-| 5     | [SB-25905](https://project-sunbird.atlassian.net/browse/SB-25905) | Bug             | CreatedFor value is not available for new Practice Question Set.                                          |
+| SI No | JIRA ID                                                                         | JIRA Issue Type | Description                                                                                               |
+| ----- | ------------------------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------- |
+| 1     | [SB-28206](https://project-sunbird.atlassian.net/browse/SB-28206)               | Story           | Migration of Reference Web App to Angular 10                                                              |
+| 2     | [SB-29766](https://project-sunbird.atlassian.net/browse/SB-29766)               | Story           | coKreat: Portal unit test coverage improvement                                                            |
+| 3     | [SB-28619](https://project-sunbird.atlassian.net/browse/SB-28619) (in Progress) | Story           | Workspace UI components                                                                                   |
+| 4     | [SB-26400](https://project-sunbird.atlassian.net/browse/SB-26400)               | Bug             | LastpublishedBy value is not getting updated for newly created and dock to diksha Published Question set. |
+| 5     | [SB-25905](https://project-sunbird.atlassian.net/browse/SB-25905)               | Bug             | CreatedFor value is not available for new Practice Question Set.                                          |
 
