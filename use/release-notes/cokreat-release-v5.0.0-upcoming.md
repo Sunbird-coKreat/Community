@@ -22,8 +22,8 @@ This document contains information on the following new features and enhancement
 
 **Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12539)****
 
-| Sl.No | JIRA Id                                                           | Jira issue Type | Description                                                                    |
-| ----- | ----------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------ |
-| **1** | [SB-30213](https://project-sunbird.atlassian.net/browse/SB-30213) | Story           | coKreat: Upgrade angular cli version to 10                                     |
-| 2     | [SB-30211](https://project-sunbird.atlassian.net/browse/SB-30211) | Story           | coKreat: Upgrade node version                                                  |
-| 3     | [CO-7](https://project-sunbird.atlassian.net/browse/CO-7)         | Story           | Making Sunbird coKreat Cloud agnostic : Code changes to generalise CSP support |
+| Sl.No | JIRA Id                                                           | Contributor | Jira issue Type | Description                                                                    |
+| ----- | ----------------------------------------------------------------- | ----------- | --------------- | ------------------------------------------------------------------------------ |
+| **1** | [SB-30213](https://project-sunbird.atlassian.net/browse/SB-30213) | EkStep      | Story           | coKreat: Upgrade angular cli version to 10                                     |
+| 2     | [SB-30211](https://project-sunbird.atlassian.net/browse/SB-30211) | EkStep      | Story           | coKreat: Upgrade node version                                                  |
+| 3     | [CO-7](https://project-sunbird.atlassian.net/browse/CO-7)         | EkStep      | Story           | Making Sunbird coKreat Cloud agnostic : Code changes to generalise CSP support |
