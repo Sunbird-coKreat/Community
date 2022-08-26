@@ -1,11 +1,11 @@
 # Release notes
 
-{% content-ref url="cokreat-release-v5.0.0-upcoming.md" %}
-[cokreat-release-v5.0.0-upcoming.md](cokreat-release-v5.0.0-upcoming.md)
+{% content-ref url="cokreat-release-v5.0.0-live.md" %}
+[cokreat-release-v5.0.0-live.md](cokreat-release-v5.0.0-live.md)
 {% endcontent-ref %}
 
-{% content-ref url="cokreat-release-v4.10.0-live.md" %}
-[cokreat-release-v4.10.0-live.md](cokreat-release-v4.10.0-live.md)
+{% content-ref url="cokreat-release-v4.10.0.md" %}
+[cokreat-release-v4.10.0.md](cokreat-release-v4.10.0.md)
 {% endcontent-ref %}
 
 {% content-ref url="cokreat-release-v4.9.0.md" %}
