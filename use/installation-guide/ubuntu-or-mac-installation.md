@@ -1,6 +1,12 @@
+---
+description: >-
+  Installation steps for coKreat reference web app on Unix (Ubuntu or Mac)
+  environment
+---
+
 # Ubuntu or Mac Installation
 
-&#x20;Install node version 14.18.1&#x20;
+Install node version 14.18.1&#x20;
 
 Install Angular CLI: 13.3.3&#x20;
 
