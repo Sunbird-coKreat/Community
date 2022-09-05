@@ -36,7 +36,9 @@
 
 * [Overview](use/overview.md)
 * [System requirements](use/system-requirements.md)
-* [Installation guide](use/installation-guide.md)
+* [Installation guide](use/installation-guide/README.md)
+  * [Windows Installation](use/installation-guide/windows-installation.md)
+  * [Ubuntu or Mac Installation](use/installation-guide/ubuntu-or-mac-installation.md)
 * [Developer Installation](use/developer-installation/README.md)
   * [Reference coKreat Web App](use/developer-installation/reference-cokreat-web-app.md)
   * [Contribution Service](use/developer-installation/contribution-service.md)
