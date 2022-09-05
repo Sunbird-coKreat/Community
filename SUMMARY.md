@@ -36,7 +36,7 @@
 
 * [Overview](use/overview.md)
 * [System requirements](use/system-requirements.md)
-* [Installation guide](use/installation-guide/README.md)
+* [Installation guide](use/installation-guide.md)
   * [Windows Installation](use/installation-guide/windows-installation.md)
   * [Ubuntu or Mac Installation](use/installation-guide/ubuntu-or-mac-installation.md)
 * [Developer Installation](use/developer-installation/README.md)
