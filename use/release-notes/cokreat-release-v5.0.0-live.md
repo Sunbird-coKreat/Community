@@ -35,3 +35,34 @@ This document contains information on the following new features and enhancement
 | 9     | [CO-17](https://project-sunbird.atlassian.net/browse/CO-17)       | Samagra     | RFC             | Question sets get removed when Project name is modified                                      |
 | 10    | [CO-41](https://project-sunbird.atlassian.net/browse/CO-41)       | Samagra     | RFC             | User is able to submit MCQ questions for review without choosing correct answer              |
 
+### **Upgrade to release-5.0.0**:
+
+| Service to be Build                                                                                                        | Build Tag                                             | Service to Deploy                  | Deploy Tag            | Comments                                                          |
+|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|------------------------------------|-----------------------|-------------------------------------------------------------------|
+|                                                                                                                            |                                                       |                                    |                       |                                                                   |
+| Build/DataPipeline/EdDataProducts                                                                                          | release-5.0.0_RC1                                     | Deploy/DataPipeline/EdDataProducts | release-5.0.0_RC1     |                                                                   |
+| Build/KnowledgePlatform/FlinkJobs                                                                                          | release-5.0.0_RC3                                     | Deploy/KnowledgePlatform/FlinkJobs | release-5.0.0_RC2     |                                                                   |
+| Build/KnowledgePlatform/Learning                                                                                           | release-5.0.0_RC1                                     | Deploy/KnowledgePlatform/Learning  | release-5.0.0_RC2     |                                                                   |
+| Build/Kubernetes/Assessment                                                                                                | release-5.0.0_RC1                                     | Deploy/Kubernetes/Assessment       | release-5.0.0-vdn_RC1 | code repo: https://github.com/Sunbird-inQuiry/inquiry-api-service |
+| Build/Kubernetes/Content                                                                                                   | release-5.0.0_RC1                                     | Deploy/Kubernetes/Content          | release-5.0.0-vdn_RC1 |                                                                   |
+| Build/Kubernetes/Player                                                                                                    | release-5.0.0_RC13                                    | Deploy/Kubernetes/Player           | release-5.0.0-vdn_RC1 |                                                                   |
+| Build/Kubernetes/Search                                                                                                    | release-5.0.0_RC1                                     | Deploy/Kubernetes/Search           | release-5.0.0-vdn_RC1 |                                                                   |
+| Build/Kubernetes/Taxonomy                                                                                                  | release-5.0.0_RC1                                     | Deploy/Kubernetes/Taxonomy         | release-5.0.0-vdn_RC1 |                                                                   |
+|                                                                                                                            |                                                       |                                    |                       |                                                                   |
+|                                                                                                                            |                                                       | Deploy/Kubernetes/OnboardAPIs      | release-5.0.0-vdn_RC1 | Please deploy onboarding api job                                  |
+|                                                                                                                            |                                                       | Deploy/Kubernetes/UploadSchemas    | release-5.0.0-vdn_RC1 |                                                                   |
+
+
+
+#### Any Configurations OR Manual Steps OR Instructions - Please add here:
+
+
+| Manual step                                                                                                                | Instruction                                           |
+|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Form config   for                                                                                                            | https://project-sunbird.atlassian.net/browse/CO-18    |
+| Form config for                                                                                                            | https://project-sunbird.atlassian.net/browse/CO-19    |
+| Form config for                                                                                                            | https://project-sunbird.atlassian.net/browse/CO-67    |
+| Form config for                                                                                                            | https://project-sunbird.atlassian.net/browse/CO-61    |
+| Form config for                                                                                                            | https://project-sunbird.atlassian.net/browse/CO-18    |
+| Form config for                                                                                                            | https://project-sunbird.atlassian.net/browse/CO-41    |
+| Please create and add definition to the Interactive Video QuestionSet primary category from config mentioned in the ticket | https://project-sunbird.atlassian.net/browse/SB-30782 |
