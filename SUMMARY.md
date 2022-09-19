@@ -53,7 +53,6 @@
   * [coKreat Release v4.7.0](use/release-notes/cokreat-release-v4.7.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
-* [updating-releases](use/updating-releases.md)
 
 ## ENGAGE
 
