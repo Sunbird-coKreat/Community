@@ -23,3 +23,5 @@ This document contains information on the following new features and enhancement
 | SI No | JIRA ID                                                           | Description                    |
 | ----- | ----------------------------------------------------------------- | ------------------------------ |
 | 2     | [SB-29241](https://project-sunbird.atlassian.net/browse/SB-29241) | coKreat platform documentation |
+
+**Test Scenarios:** NA(Since there are no functional Changes)

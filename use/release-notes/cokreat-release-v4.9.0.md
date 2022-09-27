@@ -1,4 +1,4 @@
-# coKreat - Release v4.9.0 (Live)
+# coKreat - Release v4.9.0
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
@@ -24,3 +24,5 @@ This document contains information on the following new features and enhancement
 | ----- | ----------------------------------------------------------------- | --------------- | ----------------------------------- |
 | 1     | [SB-29241](https://project-sunbird.atlassian.net/browse/SB-29422) | Task            | SB-coKreat: Microsite documentation |
 | 2     | [SB-29422](https://project-sunbird.atlassian.net/browse/SB-29422) | Task            | Workspace UI components             |
+
+**Test Scenarios**: NA (Since there is no functional changes)

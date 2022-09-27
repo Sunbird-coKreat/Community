@@ -1,4 +1,4 @@
-# coKreat Release v4.7.0(Live)
+# coKreat Release v4.7.0
 
 ## coKreat- Release v4.7.0 <a href="#inquiry-release-v-4.7.0" id="inquiry-release-v-4.7.0"></a>
 
@@ -26,3 +26,4 @@ This document contains information on the following new features, enhancements t
 | 2     | [SB-26390](https://project-sunbird.atlassian.net/browse/SB-26390)                                                                                                                                       | Sourcing Project: Framework metadata population |
 | 5     | [SB-28252](https://project-sunbird.atlassian.net/browse/SB-28252), [SB-28092](https://project-sunbird.atlassian.net/browse/SB-28092), [SB-28081](https://project-sunbird.atlassian.net/browse/SB-28081) | coKreat -  documentation improvement            |
 
+Test Scenarios: [Link](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3066593285/4.7+Test+Scenarios)

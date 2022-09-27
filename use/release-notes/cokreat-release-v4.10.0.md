@@ -1,4 +1,4 @@
-# coKreat - Release v4.10.0 (Live)
+# coKreat - Release v4.10.0
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
@@ -31,4 +31,6 @@ This document contains information on the following new features and enhancement
 | 3     | [SB-28619](https://project-sunbird.atlassian.net/browse/SB-28619) (in Progress) | Story           | Workspace UI components                                                                                   |
 | 4     | [SB-26400](https://project-sunbird.atlassian.net/browse/SB-26400)               | Bug             | LastpublishedBy value is not getting updated for newly created and dock to diksha Published Question set. |
 | 5     | [SB-25905](https://project-sunbird.atlassian.net/browse/SB-25905)               | Bug             | CreatedFor value is not available for new Practice Question Set.                                          |
+
+**Test Scenarios**: [Link](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3165782017/4.10+Test+Scenarios)
 
