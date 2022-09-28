@@ -1,4 +1,4 @@
-# coKreat - Release v5.0.0 (Live)
+# coKreat - Release v5.0.0
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
@@ -38,6 +38,12 @@ This document contains information on the following new features and enhancement
 ### **Test Scenarios:** [**Link**](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3189997578/5.0.0+Cokreat+Test+Scenarios)****
 
 ### **Upgrade to release-5.0.0**:
+
+
+
+| Variable Name                            | Service Name | Default Public Value           | Private Value Override | Comments                                                                                                                                   |
+| ---------------------------------------- | ------------ | ------------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| dock\_interactive\_video\_qset\_category | Player       | Interactive Video Question Set |                        | We need provide existing Question set primary categry name if don't want to create new primary category for interactive video question set |
 
 | Service to be Build               | Build Tag           | Service to Deploy                  | Deploy Tag             | Comments                                                          |
 | --------------------------------- | ------------------- | ---------------------------------- | ---------------------- | ----------------------------------------------------------------- |
