@@ -41,9 +41,9 @@ This document contains information on the following new features and enhancement
 
 
 
-| Variable Name                            | Service Name | Default Public Value           | Private Value Override | Comments                                                                                                                                      |
-| ---------------------------------------- | ------------ | ------------------------------ | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| dock\_interactive\_video\_qset\_category | Player       | Interactive Video Question Set |                        | We need provide existing Question set primary categry name if we don't want to create new primary category for interactive video question set |
+| Variable Name                            | Service Name | Default Public Value           | Private Value Override | Comments                                                                                                                                                                               |
+| ---------------------------------------- | ------------ | ------------------------------ | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| dock\_interactive\_video\_qset\_category | Player       | Interactive Video Question Set |                        | <p>We need provide existing Question set primary categry name if we don't want to create new primary category for interactive video question set<br>Ex: Demo Practice Question Set</p> |
 
 | Service to be Build               | Build Tag           | Service to Deploy                  | Deploy Tag             | Comments                                                          |
 | --------------------------------- | ------------------- | ---------------------------------- | ---------------------- | ----------------------------------------------------------------- |
