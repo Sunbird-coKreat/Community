@@ -4,7 +4,7 @@
 
 | Project | Release Date      | Release Version |
 | ------- | ----------------- | --------------- |
-| coKreat | 27 September 2022 | v5.0.1          |
+| Cokreat | 27 September 2022 | v5.0.1          |
 
 ### **Objectives of the coKreat release v5.0.1**
 
