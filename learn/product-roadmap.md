@@ -6,4 +6,4 @@ Check out the roadmap here [https://project-sunbird.atlassian.net/jira/software/
 Sunbird coKreat Roadmap & Backlog on JIRA
 {% endembed %}
 
-{% embed url="https://calendar.google.com/calendar/embed?ctz=Asia/Kolkata&src=c_mj4kv7c3lsvrtr25ag827hhl2o@group.calendar.google.com" %}
+Release calendar: [https://calendar.google.com/calendar/embed?src=c\_mj4kv7c3lsvrtr25ag827hhl2o%40group.calendar.google.com\&ctz=Asia%2FKolkata](https://calendar.google.com/calendar/embed?src=c\_mj4kv7c3lsvrtr25ag827hhl2o%40group.calendar.google.com\&ctz=Asia%2FKolkata)
