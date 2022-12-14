@@ -44,6 +44,8 @@ This document contains information on the following existing bugs of the coKreat
 
 ### **Upgrade to release-5.1.0**:
 
+#### Configurations:
+
 | Variable Name                      | Service Name | Default Public Value | Private Value Override | Comments |
 | ---------------------------------- | ------------ | -------------------- | ---------------------- | -------- |
 | sunbird\_cloud\_storage\_key       | Player       |                      |                        |          |
@@ -53,9 +55,29 @@ This document contains information on the following existing bugs of the coKreat
 | sunbird\_cloud\_storage\_container | Player       |                      |                        |          |
 | sunbird\_gcloud\_project\_id       | Player       |                      |                        |          |
 
-| Service to be Build     | Build Tag          | Service to Deploy        | Deploy Tag             | Comments |
-| ----------------------- | ------------------ | ------------------------ | ---------------------- | -------- |
-| Build/Kubernetes/Player | release-5.1.0\_RC3 | Deploy/Kubernetes/Player | release-5.1.0-vdn\_RC1 |          |
+#### <mark style="color:red;">Deprecated variables</mark>
+
+* <mark style="color:red;">sunbird\_azure\_report\_container\_name</mark>
+* <mark style="color:red;">sunbird\_azure\_account\_name</mark>
+* <mark style="color:red;">sunbird\_azure\_account\_key</mark>
+
+**Sample configuration for ED:**
+
+```
+sunbird_cloud_storage_key={{cloud_private_storage_accountname | default("")}}
+sunbird_cloud_storage_secret={{cloud_private_storage_secret | default("")}}
+sunbird_cloud_storage_container={{cloud_storage_public_bucketname | default("")}}
+sunbird_cloud_report_container={{cloud_storage_privatereports_bucketname | default("reports")}}
+sunbird_cloud_storage_region={{cloud_private_storage_region | default("")}}
+sunbird_gcloud_project_id={{cloud_public_storage_project | default("")}
+```
+
+#### Jenkins Jobs:
+
+| Service to be Build     | Build Tag          | Service to Deploy               | Deploy Tag             | Comments |
+| ----------------------- | ------------------ | ------------------------------- | ---------------------- | -------- |
+| Build/Kubernetes/Player | release-5.1.0\_RC3 | Deploy/Kubernetes/Player        | release-5.1.0-vdn\_RC1 |          |
+|                         |                    | Deploy/Kubernetes/UploadSchemas | release-5.1.0\_RC4     |          |
 
 Along with above service, we need to take latest changes from Knowlg and inQuiry building blocks  please use below release notes to deploy in coKreat.
 
