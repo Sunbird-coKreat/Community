@@ -42,4 +42,34 @@ This document contains information on the following existing bugs of the coKreat
 
 ### **Samagra Contribution Test Case:** [**Link**](https://docs.google.com/spreadsheets/d/1-2dVsYG0N9C5n\_UndA6DAzwTGVjr-QX1KE\_LC5a7Wkc/edit#gid=0)****
 
-### ****
+### **Upgrade to release-5.1.0**:
+
+| Variable Name                      | Service Name | Default Public Value | Private Value Override | Comments |
+| ---------------------------------- | ------------ | -------------------- | ---------------------- | -------- |
+| sunbird\_cloud\_storage\_key       | Player       |                      |                        |          |
+| sunbird\_cloud\_storage\_secret    | Player       |                      |                        |          |
+| sunbird\_cloud\_report\_container  | Player       | reports              |                        |          |
+| sunbird\_cloud\_storage\_region    | Player       |                      |                        |          |
+| sunbird\_cloud\_storage\_container | Player       |                      |                        |          |
+| sunbird\_gcloud\_project\_id       | Player       |                      |                        |          |
+
+| Service to be Build     | Build Tag          | Service to Deploy        | Deploy Tag             | Comments |
+| ----------------------- | ------------------ | ------------------------ | ---------------------- | -------- |
+| Build/Kubernetes/Player | release-5.1.0\_RC3 | Deploy/Kubernetes/Player | release-5.1.0-vdn\_RC1 |          |
+
+Along with above service, we need to take latest changes from Knowlg and inQuiry building blocks  please use below release notes to deploy in coKreat.
+
+{% embed url="https://knowlg.sunbird.org/use/release-notes/release-5.2.0-ongoing" %}
+knowlg release notes
+{% endembed %}
+
+{% embed url="https://inquiry.sunbird.org/use/release-notes/inquiry-release-v5.2.0-live" %}
+inQuiry release notes
+{% endembed %}
+
+#### Migration scripts:
+
+Please refer below documents for CSP migration for coKreat
+
+{% embed url="https://project-sunbird.atlassian.net/wiki/spaces/SingleSource/pages/3258843156/coKreat+-+Data+Cloud+Agnostic+migration+scripts" %}
+
