@@ -74,10 +74,11 @@ sunbird_gcloud_project_id={{cloud_public_storage_project | default("")}
 
 #### Jenkins Jobs:
 
-| Service to be Build     | Build Tag          | Service to Deploy               | Deploy Tag             | Comments |
-| ----------------------- | ------------------ | ------------------------------- | ---------------------- | -------- |
-| Build/Kubernetes/Player | release-5.1.0\_RC3 | Deploy/Kubernetes/Player        | release-5.1.0-vdn\_RC1 |          |
-|                         |                    | Deploy/Kubernetes/UploadSchemas | release-5.1.0\_RC4     |          |
+| Service to be Build      | Build Tag          | Service to Deploy               | Deploy Tag             | Comments |
+| ------------------------ | ------------------ | ------------------------------- | ---------------------- | -------- |
+| Build/Kubernetes/Player  | release-5.1.0\_RC9 | Deploy/Kubernetes/Player        | release-5.1.0-vdn\_RC1 |          |
+| Build/Kubernetes/Program | release-5.1.0\_RC1 | Deploy/Kubernetes/Program       | release-5.1.0-vdn\_RC1 |          |
+|                          |                    | Deploy/Kubernetes/UploadSchemas | release-5.1.0\_RC4     |          |
 
 Along with above service, we need to take latest changes from Knowlg and inQuiry building blocks  please use below release notes to deploy in coKreat.
 
