@@ -1,7 +1,3 @@
----
-description: D
----
-
 # cokreat- Release v5.1.0 (Upcoming release)
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
