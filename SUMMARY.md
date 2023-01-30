@@ -39,6 +39,7 @@
 * [Installation guide](use/installation-guide.md)
   * [Windows Installation](use/installation-guide/windows-installation.md)
   * [Ubuntu or Mac Installation](use/installation-guide/ubuntu-or-mac-installation.md)
+  * [Installation Document](use/installation-guide/installation-document.md)
 * [Developer Installation](use/developer-installation/README.md)
   * [Reference coKreat Web App](use/developer-installation/reference-cokreat-web-app.md)
   * [Contribution Service](use/developer-installation/contribution-service.md)
