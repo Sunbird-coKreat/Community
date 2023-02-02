@@ -12,17 +12,15 @@ Program APIs provide the ability to organizations to create and manage projects 
 
 **Key features**
 
-* [Create project](http://docs.sunbird.org/latest/apis/programsapi/#operation/CreateProgram200Success): This API creates the project to get the crowdsourcing of assets. Project by default is kept in draft mode and can be published later once the creator is ready to go live.&#x20;
-* [Update project](http://docs.sunbird.org/latest/apis/programsapi/#operation/ProgramUpdate200Success): This API provides the ability to update the project details. For the published (Live) project only specific details are allowed to update e.g Project title, description, nomination and contribution dates.
-* [Publish project](http://docs.sunbird.org/latest/apis/programsapi/#operation/Program-Publish200Success): The contribution organization or individual contributor can view and contribute the assets to only publish the project. This API enables the ability to publish the project.
-* [Unlist publish project](http://docs.sunbird.org/latest/apis/programsapi/#operation/Unlist-Publish400BadRequest): This API provides control to get the contribution only from the organization that created the project.
-* [Project list](http://docs.sunbird.org/latest/apis/programsapi/#operation/ProgramListsuccess-200): This API provides the list of projects available in a system. This API has the ability to apply filters.
-* [List download](http://docs.sunbird.org/latest/apis/programsapi/#operation/ListDownload200Success): This API can be used to download the project details with insight full details like the number of nominations received, contribution received, sample received, contribution rejected, project metadata etc.
-* [Read project](http://docs.sunbird.org/latest/apis/programsapi/#operation/Read-Program-200-Success): This API returns the entire project details.
+* Create project: This API creates the project to get the crowdsourcing of assets. Project by default is kept in draft mode and can be published later once the creator is ready to go live.&#x20;
+* Update project: This API provides the ability to update the project details. For the published (Live) project only specific details are allowed to update e.g Project title, description, nomination and contribution dates.
+* Publish project: The contribution organization or individual contributor can view and contribute the assets to only publish the project. This API enables the ability to publish the project.
+* Unlist publish project: This API provides control to get the contribution only from the organization that created the project.
+* Project list: This API provides the list of projects available in a system. This API has the ability to apply filters.
+* List download: This API can be used to download the project details with insight full details like the number of nominations received, contribution received, sample received, contribution rejected, project metadata etc.
+* Read project: This API returns the entire project details.
 
-#### API Documentation:
 
-Click [here](http://docs.sunbird.org/latest/apis/programsapi/#tag/Program-CRUD) to know in detail about the Program APIs
 
 ### Nomination APIs
 
@@ -30,33 +28,17 @@ Nomination APIs provide the ability to nominate and manage nominations made to t
 
 ![](../../../.gitbook/assets/nomination.png)
 
-#### API Documentation:
-
-Click [here](http://docs.sunbird.org/latest/apis/programsapi/#tag/Nomination) to know in detail about the Nomination APIs
-
 ### Report API
 
 Report API generates the report of the approved asset contributed to the project.
-
-#### API Documentation:
-
-Click [here](http://docs.sunbird.org/latest/apis/programsapi/#tag/Report) to know in detail about the Report API.
 
 ### Configuration Search API
 
 Configuration search API supports searching the configuration by its key and status. The configuration entity provides the ability to mark configuration as active/ inactive. This configuration entity can be used to maintain a variety of configurations such as email/ SMS template configuration.&#x20;
 
-#### API Documentation:
-
-Click [here](http://docs.sunbird.org/latest/apis/programsapi/#tag/Configuration) to know in detail about the Configuration search API.
-
 ### Tenant List API
 
 Tenant list API enables the ability to get a list of sourcing organizations that wants crowdsourcing of assets from the contributor for their projects. Tenant list API supports the filters, it can be used to get the active(live) / inactive tenant list.
-
-#### API Documentation:
-
-Click [here](http://docs.sunbird.org/latest/apis/programsapi/#tag/Tenant-list) to know in detail about the Tenant list API.
 
 ### Preference API
 
@@ -64,7 +46,9 @@ Preference APIs provide the ability to add, update, read user and project prefer
 
 #### API Documentation:
 
-Click [here](http://docs.sunbird.org/latest/apis/programsapi/#tag/Preference) to know in detail about the Preference API.
+[Click to know in detail about the Co-kreat APIs.](https://api.postman.com/collections/23781670-33f54060-cb49-4e89-9fc6-d448b78c3c80?access\_key=PMAT-01GR15ERTFJ9KVHG2KYN5T1NK9)
+
+
 
 ### Source Code
 
