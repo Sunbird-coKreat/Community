@@ -46,9 +46,7 @@ Preference APIs provide the ability to add, update, read user and project prefer
 
 #### API Documentation:
 
-[Click to know in detail about the Co-kreat APIs.](https://api.postman.com/collections/23781670-33f54060-cb49-4e89-9fc6-d448b78c3c80?access\_key=PMAT-01GR15ERTFJ9KVHG2KYN5T1NK9)
-
-
+[https://documenter.getpostman.com/view/25186239/2s935ivSkP](https://documenter.getpostman.com/view/25186239/2s935ivSkP)
 
 ### Source Code
 
