@@ -1,18 +1,18 @@
-# cokreat- Release v5.1.0 (Upcoming release)
+# cokreat- Release v5.2.0 (Upcoming release)
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
 | Project | Release Date | Version |
 | ------- | ------------ | ------- |
-| cokreat | 28 Nov 2022  | v5.1.0  |
+| cokreat | 08 Feb 2023  | v5.2.0  |
 
-### **Objectives of the coKreat release v5.1.0**
+### **Objectives of the coKreat release v5.2.0**
 
-The Objective of coCkreat **5.1.0** aims at fixing the known bugs for the release and make the cokreat portal as cloud agnostic.
+The Objective of coCkreat **5.2.0** aims at fixing the known bugs for the release and make the cokreat portal as cloud agnostic.
 
 ### Scope:
 
-coKreat product release features and issues are described in this version 5.1.0. This document contains a short description of bugs to the coKreat product.
+coKreat product release features and issues are described in this version 5.2.0. This document contains a short description of bugs to the coKreat product.
 
 ### **Summary of the Product Features:**
 
@@ -24,15 +24,14 @@ This document contains information on the following existing bugs of the coKreat
 
 **Samagra Contributor Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12692)****
 
-| Sl.no | JIRA Id                                                       | Contributor | Issue Type        | Description                                                                    |
-| ----- | ------------------------------------------------------------- | ----------- | ----------------- | ------------------------------------------------------------------------------ |
-| 1     | [CO-140](https://project-sunbird.atlassian.net/browse/CO-140) | Ekstep      | Minor Enhancement | CSP Implementation: Cloud Agnostic report storage implementation               |
-| 2     | [CO-113](https://project-sunbird.atlassian.net/browse/CO-113) | Ekstep      | Bug               | CLONE - User is able to delete draft content in the TOC post project end date. |
-| 3     | [CO-90](https://project-sunbird.atlassian.net/browse/CO-90)   | Samagra     | Bug               |                                                                                |
-| 4     | [CO-84](https://project-sunbird.atlassian.net/browse/CO-84)   | Samagra     | Bug               |                                                                                |
-| 5     | [CO-95](https://project-sunbird.atlassian.net/browse/CO-95)   | Samagra     | Bug               |                                                                                |
-| 6     | [CO-16](https://project-sunbird.atlassian.net/browse/CO-16)   | Samagra     | RFC               |                                                                                |
-| 7     | [CO-118](https://project-sunbird.atlassian.net/browse/CO-118) | Samagra     | Bug               |                                                                                |
+| Sl.no | JIRA Id | Contributor | Issue Type        | Description |
+| ----- | ------- | ----------- | ----------------- | ----------- |
+| 1     |         | Ekstep      | Minor Enhancement |             |
+| 3     |         | Samagra     | Bug               |             |
+| 4     |         | Samagra     | Bug               |             |
+| 5     |         | Samagra     | Bug               |             |
+| 6     |         | Samagra     | RFC               |             |
+| 7     |         | Samagra     | Bug               |             |
 
 ### **Ekstep Contribution Test Scenarios:** [**Link**](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3250749445/R+5.1.0+Test+Scenarios)****
 
@@ -51,11 +50,7 @@ This document contains information on the following existing bugs of the coKreat
 | sunbird\_cloud\_storage\_container | Player       |                      |                        |          |
 | sunbird\_gcloud\_project\_id       | Player       |                      |                        |          |
 
-#### <mark style="color:red;">Deprecated variables</mark>
-
-* <mark style="color:red;">sunbird\_azure\_report\_container\_name</mark>
-* <mark style="color:red;">sunbird\_azure\_account\_name</mark>
-* <mark style="color:red;">sunbird\_azure\_account\_key</mark>
+#### <mark style="color:red;"></mark>
 
 **Sample configuration for ED:**
 

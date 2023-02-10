@@ -47,8 +47,8 @@
 * [Release Plan & Calendar](use/release-plan-and-calendar/README.md)
   * [Release calendar 5.0.1, 5.0.2, 5.0.3, 5.1.0 (major), 5.1.1, 5.1.2, 5.1.3 &5.2.0 (major)](use/release-plan-and-calendar/release-calendar-5.0.1-5.0.2-5.0.3-5.1.0-major-5.1.1-5.1.2-5.1.3-and-5.2.0-major.md)
 * [Release notes](use/release-notes/README.md)
-  * [Release v5.2.0 (Upcoming release)](use/release-notes/release-v5.2.0-upcoming-release.md)
-  * [cokreat- Release v5.1.0 (Live)](use/release-notes/cokreat-release-v5.1.0-live.md)
+  * [coKreat-Release v5.1.3 (V5.1.1 and V5.1.2 Included)(Ongoing)](use/release-notes/cokreat-release-v5.1.3-v5.1.1-and-v5.1.2-included-ongoing.md)
+  * [cokreat- Release v5.1.0 (Live)](use/release-notes/cokreat-release-v5.1.0-upcoming-release.md)
   * [cokreat-Release v5.0.3](use/release-notes/cokreat-release-v5.0.3.md)
   * [coKreat - Release v5.0.2](use/release-notes/cokreat-release-v5.0.2-upcoming.md)
   * [coKreat - Release v5.0.1](use/release-notes/cokreat-release-v5.0.1-upcoming.md)
@@ -57,6 +57,7 @@
   * [coKreat - Release v4.9.0](use/release-notes/cokreat-release-v4.9.0.md)
   * [coKreat - Release v4.8.0](use/release-notes/cokreat-release-v4.8.0.md)
   * [coKreat Release v4.7.0](use/release-notes/cokreat-release-v4.7.0.md)
+  * [cokreat- Release v5.2.0 (Upcoming release)](use/release-notes/cokreat-release-v5.2.0-upcoming-release.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
 
