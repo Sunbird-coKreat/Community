@@ -1,4 +1,12 @@
-# coKreat-Release v5.1.3 (V5.1.1 and V5.1.2 Included)(Ongoing)
+# coKreat - Release v5.2.0 (Ongoing)
+
+### Minor releases
+
+Release-5.1.1&#x20;
+
+Release-5.1.2&#x20;
+
+Release-5.1.3
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
