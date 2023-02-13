@@ -4,7 +4,7 @@
 
 Sunbirded Setup
 
-**Infra Requirements**
+### **Infra Requirements**
 
 * Kubernetes Cluster
 * Private GitHub repository to store ansible inventory
@@ -14,7 +14,7 @@ Sunbirded Setup
 * Public IP
 * Vm's(1 KP vm, 1 DB vm)
 
-**Copy coKreat jenkins jobs**
+### **Copy coKreat jenkins jobs**
 
 Copy cokreat jenkins jobs [coKreat-jobs](https://github.com/project-sunbird/sunbird-devops/tree/vdn-config/deploy/jenkins/jobs) to /varl/ib/jenkins/jobs folder in jenkins machine and restart jenkins service
 
@@ -31,7 +31,7 @@ git checkout tags/release-5.1.0-vdn -b release-5.1.0-vdn
 * Copy the directory `sunbird-devops/private_repo/ansible/inventory` to your private repo/ansible/inventory/env
 * Update the files **common.yml**, **hosts**, and **secrets.yml** under **DockDev** directories. After updating, push them to your private repo branch
 
-**Build and Deploy services**
+### **Build and Deploy services**
 
 | JENKINS JOB TO RUN                | GITHUB TAG                                                               | GITHUB REPO                                                                                                                          | COMMENTS                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@ git checkout tags/release-5.1.0-vdn -b release-5.1.0-vdn
 | Build/Plugins/ContentPlugins      | release-5.0.0\_RC1                                                       | [https://github.com/project-sunbird/sunbird-content-plugins.git](https://github.com/project-sunbird/sunbird-content-plugins.git)     | A bunch of base plugins to support the content editors and content player |
 | Build/Plugins/GenericEditor       | release-5.0.0\_RC3                                                       | [https://github.com/project-sunbird/sunbird-generic-editor.git](https://github.com/project-sunbird/sunbird-generic-editor.git)       | A bunch of plugins to edit certain types of content                       |
 
-**nfra Provision**
+### **Infra Provision**
 
 > Note:
 >
@@ -76,7 +76,7 @@ git checkout tags/release-5.1.0-vdn -b release-5.1.0-vdn
 | Provision/KnowledgePlatform/Learning    | release-5.0.0\_RC2                                      | [https://github.com/project-sunbird/sunbird-learning-platform.git](https://github.com/project-sunbird/sunbird-learning-platform.git) | Install tomcat and other pre-requisites for Learning service |
 | Provision/KnowledgePlatform/Neo4j       | release-5.0.0\_RC2                                      | [https://github.com/project-sunbird/sunbird-learning-platform.git](https://github.com/project-sunbird/sunbird-learning-platform.git) | Installs Neo4j database                                      |
 
-**ArtifactUpload**
+### **ArtifactUpload**
 
 * Every job in the **Build** directory has a corresponding job in **ArtifactUpload** directory with the same name
 * These jobs are auto triggered and usually run without issues after the corresponding job in the build directory succeeds
@@ -84,7 +84,7 @@ git checkout tags/release-5.1.0-vdn -b release-5.1.0-vdn
 * If the job has failed, fix the ansible variables issue and rerun the job to upload the artifact / docker image
 * Ensure the artifact upload jobs are successful before proceeding
 
-**Code Deploy**
+### **Code Deploy**
 
 > Note:
 >
