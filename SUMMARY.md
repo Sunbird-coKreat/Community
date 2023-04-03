@@ -44,7 +44,7 @@
   * [Reference coKreat Web App](use/developer-installation/reference-cokreat-web-app.md)
   * [Contribution Service](use/developer-installation/contribution-service.md)
   * [Contributor registry](use/developer-installation/contributor-registry.md)
-* [Release Calendar](use/release-plan-and-calendar.md)
+* [Release Calendar](use/release-plan-and-calendar/README.md)
 * [Release notes](use/release-notes/README.md)
   * [coKreat - Release v5.2.0 (Ongoing)](use/release-notes/cokreat-release-v5.2.0-ongoing.md)
   * [cokreat- Release v5.1.0 (Live)](use/release-notes/cokreat-release-v5.1.0-upcoming-release.md)
