@@ -1,18 +1,18 @@
-# cokreat- Release v5.2.0 (Upcoming release)
+# cokreat- Release v6.0.0 (Upcoming release)
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
 | Project | Release Date | Version |
 | ------- | ------------ | ------- |
-| cokreat | 08 Feb 2023  | v5.2.0  |
+| cokreat | 01 June 2023 | v6.0.0  |
 
-### **Objectives of the coKreat release v5.2.0**
+### **Objectives of the coKreat release v6.0.0**
 
-The Objective of coCkreat **5.2.0** aims at fixing the known bugs for the release and make the cokreat portal as cloud agnostic.
+The Objective of cokreat **6.0.0** aims Angular Changes from 11 to 12, Angular 12 to 13 and Angualr 13 to14
 
 ### Scope:
 
-coKreat product release features and issues are described in this version 5.2.0. This document contains a short description of bugs to the coKreat product.
+coKreat product release features and issues are described in this version 6.0.0. This document contains a short description of bugs to the coKreat product.
 
 ### **Summary of the Product Features:**
 
@@ -20,9 +20,9 @@ This document contains information on the following existing bugs of the coKreat
 
 ### **Description of the Product Features**
 
-**Ekstep Contributor Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12683)****
+**Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12789)
 
-**Samagra Contributor Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12692)****
+**Samagra Contributor Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12692)
 
 | Sl.no | JIRA Id | Contributor | Issue Type        | Description |
 | ----- | ------- | ----------- | ----------------- | ----------- |
@@ -33,9 +33,9 @@ This document contains information on the following existing bugs of the coKreat
 | 6     |         | Samagra     | RFC               |             |
 | 7     |         | Samagra     | Bug               |             |
 
-### **Ekstep Contribution Test Scenarios:** [**Link**](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3250749445/R+5.1.0+Test+Scenarios)****
+### **Ekstep Contribution Test Scenarios:** [**Link**](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3250749445/R+5.1.0+Test+Scenarios)
 
-### **Samagra Contribution Test Case:** [**Link**](https://docs.google.com/spreadsheets/d/1-2dVsYG0N9C5n\_UndA6DAzwTGVjr-QX1KE\_LC5a7Wkc/edit#gid=0)****
+### **Samagra Contribution Test Case:** [**Link**](https://docs.google.com/spreadsheets/d/1-2dVsYG0N9C5n\_UndA6DAzwTGVjr-QX1KE\_LC5a7Wkc/edit#gid=0)
 
 ### **Upgrade to release-5.1.0**:
 
@@ -50,7 +50,7 @@ This document contains information on the following existing bugs of the coKreat
 | sunbird\_cloud\_storage\_container | Player       |                      |                        |          |
 | sunbird\_gcloud\_project\_id       | Player       |                      |                        |          |
 
-#### <mark style="color:red;"></mark>
+####
 
 **Sample configuration for ED:**
 
