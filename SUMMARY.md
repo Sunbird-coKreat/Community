@@ -59,9 +59,10 @@
   * [coKreat Release v4.7.0](use/release-notes/cokreat-release-v4.7.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
-  * [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
 
 ## ENGAGE
+
+* [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
 
 ## Archived
 
