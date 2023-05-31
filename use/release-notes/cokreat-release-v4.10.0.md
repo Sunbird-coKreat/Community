@@ -2,9 +2,7 @@
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date | Release Version |
-| ------- | ------------ | --------------- |
-| coKreat | 10-06-22     | v4.10.0         |
+<table><thead><tr><th width="226.06500541711807">Project</th><th>Release Date</th><th>Release Version</th></tr></thead><tbody><tr><td>coKreat</td><td>10-06-22 </td><td>v4.10.0</td></tr></tbody></table>
 
 ### **Objectives of the coKreat release v4.10.0**
 
@@ -20,9 +18,9 @@ This document contains information on the following new features and enhancement
 
 ### **Description of the Product Features**
 
-**Scope:** [**Link**](https://project-sunbird.atlassian.net/browse/SB-28619?jql=filter%20in%20\(%2211682%22\)%20AND%20sprint%20in%20\(242\)%20AND%20issuetype%20in%20\(Story%2C%20Task%2C%20Enhancement%2C%20Bug\)%20AND%20%22Building%20Block%22%20%3D%20%22Sunbird%20coKreat%22%20AND%20Contributor%20in%20\(EkStep\))****
+**Scope:** [**Link**](https://project-sunbird.atlassian.net/browse/SB-28619?jql=filter%20in%20\(%2211682%22\)%20AND%20sprint%20in%20\(242\)%20AND%20issuetype%20in%20\(Story%2C%20Task%2C%20Enhancement%2C%20Bug\)%20AND%20%22Building%20Block%22%20%3D%20%22Sunbird%20coKreat%22%20AND%20Contributor%20in%20\(EkStep\))
 
-****
+
 
 | SI No | JIRA ID                                                                         | JIRA Issue Type | Description                                                                                               |
 | ----- | ------------------------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------- |

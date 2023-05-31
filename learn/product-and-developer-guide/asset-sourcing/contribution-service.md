@@ -12,13 +12,13 @@ Program APIs provide the ability to organizations to create and manage projects 
 
 **Key features**
 
-* ****[**Create project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#cd6f8eda-d0ca-4c97-a118-924d1cce7d83): This API creates the project to get the crowdsourcing of assets. Project by default is kept in draft mode and can be published later once the creator is ready to go live.&#x20;
-* ****[**Update project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#11d24652-1c07-4982-84f3-06a424447eff): This API provides the ability to update the project details. For the published (Live) project only specific details are allowed to update e.g Project title, description, nomination and contribution dates.
-* ****[**Publish project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#c13730d7-016f-475f-a874-9d8fa237aa00): The contribution organization or individual contributor can view and contribute the assets to only publish the project. This API enables the ability to publish the project.
-* ****[**Unlist publish project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#24d202e7-d361-4081-b20e-88d33d57d30a): This API provides control to get the contribution only from the organization that created the project.
-* ****[**Project list**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#dd6636de-c7c0-40ae-b0cb-558df7635918): This API provides the list of projects available in a system. This API has the ability to apply filters.
-* ****[**List download**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#e310c537-d7db-4f0e-842b-88701ca5a6e1): This API can be used to download the project details with insight full details like the number of nominations received, contribution received, sample received, contribution rejected, project metadata etc.
-* ****[**Read project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#eba06746-f44e-4aa3-ae77-e3ddc2a8d362): This API returns the entire project details.
+* [**Create project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#cd6f8eda-d0ca-4c97-a118-924d1cce7d83): This API creates the project to get the crowdsourcing of assets. Project by default is kept in draft mode and can be published later once the creator is ready to go live.&#x20;
+* [**Update project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#11d24652-1c07-4982-84f3-06a424447eff): This API provides the ability to update the project details. For the published (Live) project only specific details are allowed to update e.g Project title, description, nomination and contribution dates.
+* [**Publish project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#c13730d7-016f-475f-a874-9d8fa237aa00): The contribution organization or individual contributor can view and contribute the assets to only publish the project. This API enables the ability to publish the project.
+* [**Unlist publish project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#24d202e7-d361-4081-b20e-88d33d57d30a): This API provides control to get the contribution only from the organization that created the project.
+* [**Project list**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#dd6636de-c7c0-40ae-b0cb-558df7635918): This API provides the list of projects available in a system. This API has the ability to apply filters.
+* [**List download**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#e310c537-d7db-4f0e-842b-88701ca5a6e1): This API can be used to download the project details with insight full details like the number of nominations received, contribution received, sample received, contribution rejected, project metadata etc.
+* [**Read project**](https://documenter.getpostman.com/view/25186239/2s935ivSkP#eba06746-f44e-4aa3-ae77-e3ddc2a8d362): This API returns the entire project details.
 
 
 

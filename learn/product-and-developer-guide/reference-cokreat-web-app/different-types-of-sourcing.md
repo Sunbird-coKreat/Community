@@ -6,7 +6,7 @@ Below are the three different types of sourcing enabled by coKreat building bloc
 
 As the name suggests, this option enables organizations to source assets from any user. This approach is recommended for organizations who are trying to create asset repository but do not have in-house creators nor capacity to create the required assets.&#x20;
 
-To enable this option, the organization admin, at the time of creating the project to source assets, needs to select '**the From anyone(through nomination process)'** as shown in the below screen shot. ****&#x20;
+To enable this option, the organization admin, at the time of creating the project to source assets, needs to select '**the From anyone(through nomination process)'** as shown in the below screen shot.&#x20;
 
 ![Project creation: enable crowdsourcing from public](https://lh5.googleusercontent.com/SggM3peHar1jywlhCwqN2cMPpD9kkbWKjptjgITCFegLbjBMIFrBqwuF2715hQaLjA5I67f2mXR1Ma1YWeAtUve\_ZPIVjkwcQ28WoRtDxMIAzadfcqb9eEQn5mIB78wVYUj7FPdO)
 
@@ -14,7 +14,7 @@ To enable this option, the organization admin, at the time of creating the proje
 
 This type of sourcing enables organization(s) to seek content from a pre-registered set of contributors who can be either from particular organization(s) or individual contributor(s). This approach is recommended for organizations who do not have in-house capacity to create the assets however have a tie up with organizations or users who can create these assets.
 
-To enable this option, the organization admin, at the time of creating the project to source assets, needs to select '**the From selected set of contributors'** and contributors **from the 'Contributor type'**  as shown in the below screen shot. ****&#x20;
+To enable this option, the organization admin, at the time of creating the project to source assets, needs to select '**the From selected set of contributors'** and contributors **from the 'Contributor type'**  as shown in the below screen shot.&#x20;
 
 ![Project creation: enable sourcing from selected set of contributors](https://lh3.googleusercontent.com/LAdvxGewUVFn2v5zWGi6KKs\_8zBCWaV5L2pBHrd3XQGdUt5JHUmrBrzeab5ydZp9Sb8ml1BkFYjopYflAe5-M2EMNmZjKoKpqe\_qAYg4Glf\_KuNeT7VE0zxYdIW4fo-YmrhFcKS3)
 

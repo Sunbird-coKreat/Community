@@ -52,15 +52,7 @@ User schema stores the information about User.  If the user is an individual con
 
 Org schema stores the information about Contributing Organization, which is given by contributing Org Admin while enrolling.&#x20;
 
-| Key         | Value                                            |
-| ----------- | ------------------------------------------------ |
-| @type       | <mark style="color:orange;">Org</mark>           |
-| name        | Name of the Organization                         |
-| description | Description of the Organization                  |
-| code        | code generated from the name of the Organization |
-| osid        | Unique Id given to the Org in the registry       |
-| orgId       |                                                  |
-| type        |                                                  |
+<table><thead><tr><th width="317.8053896565683">Key</th><th>Value</th></tr></thead><tbody><tr><td>@type</td><td><mark style="color:orange;">Org</mark></td></tr><tr><td>name</td><td>Name of the Organization</td></tr><tr><td>description</td><td>Description of the Organization</td></tr><tr><td>code</td><td>code generated from the name of the Organization</td></tr><tr><td>osid</td><td>Unique Id given to the Org in the registry</td></tr><tr><td>orgId</td><td></td></tr><tr><td>type</td><td></td></tr></tbody></table>
 
 #### User\_Org :
 

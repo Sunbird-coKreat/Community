@@ -2,12 +2,7 @@
 
 ### System requirements
 
-| Softwares / Frameworks | Version      |
-| ---------------------- | ------------ |
-| Node                   | 10x or above |
-| Postgres               | 9.6          |
-| Redis                  | 4.x or above |
-| Postgres               | 9.6          |
+<table><thead><tr><th width="323">Softwares / Frameworks</th><th>Version</th></tr></thead><tbody><tr><td>Node</td><td>10x or above</td></tr><tr><td>Postgres</td><td>9.6</td></tr><tr><td>Redis</td><td>4.x or above</td></tr><tr><td>Postgres</td><td>9.6</td></tr></tbody></table>
 
 ### Installation
 

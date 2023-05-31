@@ -2,9 +2,7 @@
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date | Release Version |
-| ------- | ------------ | --------------- |
-| coKreat | 04-04-22     | v4.8.0          |
+<table><thead><tr><th width="215.33333333333334">Project</th><th>Release Date</th><th>Release Version</th></tr></thead><tbody><tr><td>coKreat</td><td>04-04-22 </td><td>v4.8.0</td></tr></tbody></table>
 
 ### **Objectives of the coKreat release v4.8.0**
 

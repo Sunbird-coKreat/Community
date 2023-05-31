@@ -1,6 +1,6 @@
 # Question Bank
 
-Question bank capability is powered by Sunbird inQuiry building block **** which consists of pluggable tools and microservices that enable creation of questions and question sets (collection of questions), configuration of their behaviour, curation and publishing them for users to play on any device.&#x20;
+Question bank capability is powered by Sunbird inQuiry building block which consists of pluggable tools and microservices that enable creation of questions and question sets (collection of questions), configuration of their behaviour, curation and publishing them for users to play on any device.&#x20;
 
 Key capabilities offered by Sunbird inQuiry are:&#x20;
 

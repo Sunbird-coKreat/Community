@@ -42,14 +42,7 @@ This document contains information on the following existing bugs of the coKreat
 
 #### Configurations:
 
-| Variable Name                      | Service Name | Default Public Value | Private Value Override | Comments |
-| ---------------------------------- | ------------ | -------------------- | ---------------------- | -------- |
-| sunbird\_cloud\_storage\_key       | Player       |                      |                        |          |
-| sunbird\_cloud\_storage\_secret    | Player       |                      |                        |          |
-| sunbird\_cloud\_report\_container  | Player       | reports              |                        |          |
-| sunbird\_cloud\_storage\_region    | Player       |                      |                        |          |
-| sunbird\_cloud\_storage\_container | Player       |                      |                        |          |
-| sunbird\_gcloud\_project\_id       | Player       |                      |                        |          |
+<table><thead><tr><th width="161">Variable Name</th><th width="144">Service Name</th><th width="196">Default Public Value</th><th width="126">Private Value Override</th><th width="189">Comments</th></tr></thead><tbody><tr><td>sunbird_cloud_storage_key</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_secret</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_report_container</td><td>Player</td><td>reports</td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_region</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_container</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_gcloud_project_id</td><td>Player</td><td></td><td></td><td></td></tr></tbody></table>
 
 #### <mark style="color:red;">Deprecated variables</mark>
 

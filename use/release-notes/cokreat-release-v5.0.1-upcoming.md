@@ -1,4 +1,4 @@
-# coKreat - Release v5.0.1 (Upcoming)
+# coKreat - Release v5.0.1
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
@@ -20,11 +20,8 @@ This document contains information on the following new features and enhancement
 
 ### **Description of the Product Features**
 
-**Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12627)****
+**Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12627)
 
-| Sl.no | Jira ID                                                   | Contributor | JIRA Issue type     | Description                                  |
-| ----- | --------------------------------------------------------- | ----------- | ------------------- | -------------------------------------------- |
-| **1** | [CO-9](https://project-sunbird.atlassian.net/browse/CO-9) | Ekstep      | Documentation Issue | Program service postman API test             |
-| 2     | CO-8                                                      | Ekstep      |  Minor enhancement  | Migration of Reference Web App to Angular 11 |
+<table><thead><tr><th width="77">Sl.no</th><th width="79">Jira ID</th><th width="102">Contributor</th><th width="198">JIRA Issue type</th><th>Description</th></tr></thead><tbody><tr><td><strong>1</strong></td><td><a href="https://project-sunbird.atlassian.net/browse/CO-9">CO-9</a></td><td>Ekstep</td><td>Documentation Issue</td><td>Program service postman API test</td></tr><tr><td>2</td><td>CO-8</td><td>Ekstep</td><td> Minor enhancement</td><td>Migration of Reference Web App to Angular 11</td></tr></tbody></table>
 
 Test Scenarios: NA ( Since there is no functional changes)

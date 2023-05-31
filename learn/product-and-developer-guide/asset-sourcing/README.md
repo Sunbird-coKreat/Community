@@ -32,7 +32,7 @@ Considering the above, **Sunbird coKreat** provides tools and services to engage
 
 It is an evolving software designed to be configurable, extendable to serve multiple needs. It enables a set of process flows for the orchestration and can be easily enhanced, extended for further needs.
 
-****
+
 
 ### Key Actors and Actions in Co-creation Process
 
@@ -54,16 +54,16 @@ It is an evolving software designed to be configurable, extendable to serve mult
 
 #### Sourcing Organization <a href="#sourcing-organization" id="sourcing-organization"></a>
 
-| **L2 Actor(s)**                                                           | **Action(s)**                                                                                                                                                                           |
-| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Administrator                                                             | **Set Up** Sourcing Organization                                                                                                                                                        |
-| Administrator                                                             | **Create** Sourcing Project(s)                                                                                                                                                          |
-| Administrator                                                             | **Assign** Users with their Roles to a Sourcing Project                                                                                                                                 |
-| Administrator                                                             | **Choose** Contributors to a Sourcing Project                                                                                                                                           |
-| Administrator                                                             | **Monitor** the usage of the published assets from its consumption                                                                                                                      |
-| Administrator                                                             | **Analyze** the usage and feedback of the published assets from its consumption for improvement                                                                                         |
-| Creator                                                                   | **Create** assets as per the requirements                                                                                                                                               |
-| <p>Reviewer</p><p>(Note: Administrator can also play a Reviewer role)</p> | <p><strong>Curate and Publish</strong> created and <strong></strong> contributed assets for consumption.</p><p><strong>Curate</strong> includes reviewing and organizing the assets</p> |
+| **L2 Actor(s)**                                                           | **Action(s)**                                                                                                                                                         |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Administrator                                                             | **Set Up** Sourcing Organization                                                                                                                                      |
+| Administrator                                                             | **Create** Sourcing Project(s)                                                                                                                                        |
+| Administrator                                                             | **Assign** Users with their Roles to a Sourcing Project                                                                                                               |
+| Administrator                                                             | **Choose** Contributors to a Sourcing Project                                                                                                                         |
+| Administrator                                                             | **Monitor** the usage of the published assets from its consumption                                                                                                    |
+| Administrator                                                             | **Analyze** the usage and feedback of the published assets from its consumption for improvement                                                                       |
+| Creator                                                                   | **Create** assets as per the requirements                                                                                                                             |
+| <p>Reviewer</p><p>(Note: Administrator can also play a Reviewer role)</p> | <p><strong>Curate and Publish</strong> created and contributed assets for consumption.</p><p><strong>Curate</strong> includes reviewing and organizing the assets</p> |
 
 #### Individual Contributor <a href="#individual-contributor" id="individual-contributor"></a>
 

@@ -20,7 +20,7 @@ If the asset is **sent back for corrections** asset's status will change from Li
 
 Lifecycle of learning assets is a 4 stage cyclic process.&#x20;
 
-Draft --> Review --> Live  --> Publish __ ( Import on consumption )\
+Draft --> Review --> Live  --> Publish ( Import on consumption )\
 
 
 ![](../../../../../.gitbook/assets/lifecycle-contributor-.png)

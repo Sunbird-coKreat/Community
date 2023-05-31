@@ -20,4 +20,4 @@
 [cokreat-release-v4.7.0.md](cokreat-release-v4.7.0.md)
 {% endcontent-ref %}
 
-### ****
+###

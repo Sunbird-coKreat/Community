@@ -44,6 +44,6 @@ Step4: In the **'Project Scope'** tab, one can define the scope of the project. 
 
 The below screen shot is for a project in the education domain which is defined to seek 'explanation content' for a 'Digital Textbook' belonging to CBSE framework - CBSE board, Medium, Class & Subject etc. &#x20;
 
-&#x20;****&#x20;
+&#x20;
 
 ![](https://lh5.googleusercontent.com/2uPF0GKctDAxtG-a4wyY0WGDSICGpQ\_zTCpHH-zd3ITXIcf3uOCWUt4JNdsD9KCM-W8RMzOcSF-7h-9345GlB9R\_am5elsFmzzPMQ6MdWTDcJtst1sJ-fhIHPGVdTynLXNVgKp3V\_BQk)

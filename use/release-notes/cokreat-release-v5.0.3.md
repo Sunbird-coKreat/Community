@@ -20,15 +20,8 @@ This document contains information on the following existing bugs of the coKreat
 
 ### **Description of the Product Features**
 
-**Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12680)****
+**Scope:** [**Link**](https://project-sunbird.atlassian.net/issues/?filter=12680)
 
-| Sl.no | JIRA Id | Contributor | Jira Issue Type   | Description                                                                                                                            |
-| ----- | ------- | ----------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | CO-116  | Samagra     | Bug               | Content type under Question sets to be corrected                                                                                       |
-| 2     | CO-115  | Samagra     | Minor-Enhancement | Question type to be visible in question list view                                                                                      |
-| 3     | CO-85   | Samagra     | Bug               | Publish Question set option is getting displayed for the "Non Exam Question set Projects" ie Practice Set, Demo Practice Question set. |
-| 4     | CO-83   | Samagra     | Bug               | Hidden form is getting displayed on selection of Subjective question's template.                                                       |
-| 5     | CO-82   | Samagra     | Bug               | Order of the question is incorrect in the Question preview.                                                                            |
-| 6     | CO-92   | Samagra     | Bug               | Duplicate Question set option is throwing error                                                                                        |
+<table><thead><tr><th width="90">Sl.no</th><th width="92">JIRA Id</th><th>Contributor</th><th width="114">Jira Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-116</td><td>Samagra</td><td>Bug</td><td>Content type under Question sets to be corrected</td></tr><tr><td>2</td><td>CO-115</td><td>Samagra</td><td>Minor-Enhancement</td><td>Question type to be visible in question list view</td></tr><tr><td>3</td><td>CO-85</td><td>Samagra</td><td>Bug</td><td>Publish Question set option is getting displayed for the "Non Exam Question set Projects" ie Practice Set, Demo Practice Question set.</td></tr><tr><td>4</td><td>CO-83</td><td>Samagra</td><td>Bug</td><td>Hidden form is getting displayed on selection of Subjective question's template.</td></tr><tr><td>5</td><td>CO-82</td><td>Samagra</td><td>Bug</td><td>Order of the question is incorrect in the Question preview.</td></tr><tr><td>6</td><td>CO-92</td><td>Samagra</td><td>Bug</td><td>Duplicate Question set option is throwing error</td></tr></tbody></table>
 
-### **Test Scenarios:** [**Link**](https://docs.google.com/spreadsheets/d/1\_vc\_vH155HrUV3nr4dD4AcFLzMiWIgTlqIHTpc\_Xv-U/edit#gid=0)****
+### **Test Scenarios:** [**Link**](https://docs.google.com/spreadsheets/d/1\_vc\_vH155HrUV3nr4dD4AcFLzMiWIgTlqIHTpc\_Xv-U/edit#gid=0)

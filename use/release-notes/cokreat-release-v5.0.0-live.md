@@ -35,15 +35,13 @@ This document contains information on the following new features and enhancement
 | 9     | [CO-17](https://project-sunbird.atlassian.net/browse/CO-17)       | Samagra     | RFC             | Question sets get removed when Project name is modified                                      |
 | 10    | [CO-41](https://project-sunbird.atlassian.net/browse/CO-41)       | Samagra     | RFC             | User is able to submit MCQ questions for review without choosing correct answer              |
 
-### **Test Scenarios:** [**Link**](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3189997578/5.0.0+Cokreat+Test+Scenarios)****
+### **Test Scenarios:** [**Link**](https://project-sunbird.atlassian.net/wiki/spaces/COK/pages/3189997578/5.0.0+Cokreat+Test+Scenarios)
 
 ### **Upgrade to release-5.0.0**:
 
 
 
-| Variable Name                            | Service Name | Default Public Value           | Private Value Override | Comments                                                                                                                                                                               |
-| ---------------------------------------- | ------------ | ------------------------------ | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| dock\_interactive\_video\_qset\_category | Player       | Interactive Video Question Set |                        | <p>We need provide existing Question set primary categry name if we don't want to create new primary category for interactive video question set<br>Ex: Demo Practice Question Set</p> |
+<table><thead><tr><th width="161">Variable Name</th><th width="144">Service Name</th><th width="196">Default Public Value</th><th width="126">Private Value Override</th><th width="189">Comments</th></tr></thead><tbody><tr><td>dock_interactive_video_qset_category</td><td>Player</td><td>Interactive Video Question Set</td><td></td><td>We need provide existing Question set primary categry name if we don't want to create new primary category for interactive video question set<br>Ex: Demo Practice Question Set</td></tr></tbody></table>
 
 | Service to be Build               | Build Tag           | Service to Deploy                  | Deploy Tag             | Comments                                                          |
 | --------------------------------- | ------------------- | ---------------------------------- | ---------------------- | ----------------------------------------------------------------- |

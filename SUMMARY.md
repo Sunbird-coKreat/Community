@@ -47,7 +47,7 @@
 * [Release Calendar](use/release-plan-and-calendar/README.md)
 * [Release notes](use/release-notes/README.md)
   * [cokreat- Release v6.0.0 (Upcoming release)](use/release-notes/cokreat-release-v5.2.0-upcoming-release.md)
-  * [coKreat - Release v5.2.0 (Live)](use/release-notes/cokreat-release-v5.2.0-ongoing.md)
+  * [coKreat - Release v5.2.0 (Live)](use/release-notes/cokreat-release-v5.2.0.md)
   * [cokreat- Release v5.1.0](use/release-notes/cokreat-release-v5.1.0-upcoming-release.md)
   * [cokreat-Release v5.0.3](use/release-notes/cokreat-release-v5.0.3.md)
   * [coKreat - Release v5.0.2](use/release-notes/cokreat-release-v5.0.2-upcoming.md)
