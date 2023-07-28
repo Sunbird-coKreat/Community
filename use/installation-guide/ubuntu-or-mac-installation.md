@@ -6,44 +6,92 @@ description: >-
 
 # Ubuntu or Mac Installation
 
-### Pre - required programs
+**Pre-Required Setup**\
 
-* Python 2.7.18&#x20;
 
-[Note : If your machine has python 3+ installed, please downgrade it to 2.7](#user-content-fn-1)[^1]
+* **System Requirements**
+  * OS -> This document is for Installing CoKreate on an Ubuntu, linux and Mac Machines only, In case you are an Windows Operator please refer here\\
+  * RAM should be 8 GB or Above
+  * SSD/HDD more than 256 GB
+*   **System Installations**
 
-### Follow-up steps&#x20;
+    Angular 14 or above
 
-* Install node version 14.18.1&#x20;
-* Install Angular CLI: 13.3.3&#x20;
-* Create git account&#x20;
-* Clone the repo from : https://github.com/Sunbird-Ed/creation-portal.git
+    Node 14.\
+    (In case your machine is pointing to any other version please Install NVM and switch to Node 14)
 
-[Note : ](#user-content-fn-2)[^2]Clone the repo to desktop folder to avoid any privileged user access problems
+    Python 2.7\
+    (In case your machine is having any lower or higher version of python, Please install python 2.7 and mark it as default, Instructions are given here)
 
-### Run the application server&#x20;
+    Github Account to fork and clone the repository&#x20;
 
-* Open terminal
-* Change directory to ..\creation-portal\src\app
-* Run command `set NODE_OPTIONS=--max_old_space_size=4096`&#x20;
-* Run command `npm i`&#x20;
-* Run command `npm run resource-bundles`&#x20;
-* Run command `export sunbird_environment="local"`&#x20;
-* Run command `export sunbird_instance="sunbird"`&#x20;
-* Run command `export sunbird_default_channel="sunbird"`&#x20;
-* Run command `export sunbird_default_tenant="sunbird"`&#x20;
-* Run command `node server`
+    Clone CoKreate repository from here https://github.com/Sunbird-coKreat/creation-portal
 
-### Run the client&#x20;
+\
 
-* Open another command prompt window&#x20;
-* Change directory to ..\creation-portal\src\app\client&#x20;
-* Run command `npm i`
-* Run command `npm install nodemon`&#x20;
-* Run command `nodemon`&#x20;
 
-Open `http://localhost:3000/sourcing` on a browser tab
+Notes: This Project will be configured in two terminals\
+Terminal 1 -> To configure the server on your local machines\
+Terminal 2 -> To configure the client on your local machine
 
-[^1]: 
+IMP: Please do not change or alter any on the versions given above
 
-[^2]: 
+\
+
+
+* **Terminal 1 Setup**
+  * Clone the Repo from GitHub [https://github.com/Sunbird-coKreat/creation-portal](https://github.com/Sunbird-coKreat/creation-portal)
+  * Go to the cloned folder “cd creation-portal”
+  * Change the folder by typing “cd src/app”
+  * Execute the following commands
+    * Set NODE\_OPTIONS=--max\_old\_space\_size=4096 (this will remove heap command)
+    * Npm install (after NPM Install is done execute the below commands)
+    * npm resource-bundles
+  *   Once the above commands are successfully executed set System Variables
+
+      export sunbird\_environment="local"
+
+      export sunbird\_instance="sunbird"
+
+      export sunbird\_default\_channel="sunbird"
+
+      export sunbird\_default\_tenant="sunbird"
+* Now do the client setup, Minimise this terminal and open new terminal or terminal tab
+* After part 2 is done, set environment tokens and run the project\
+  “**npm run server**”
+
+
+
+* **Terminal 2 Setup:**
+  * Point this terminal to cloned repo folder and go to client folder “cd src/app/client”
+  *   Now run following commands
+
+      **Npm install**
+  * Now try running the client terminal “ng build –watch=true”
+  * Now go to server terminal and run the “npm run server ”
+  * This is setup creation portal on local ubntu machine
+
+
+
+
+
+* **Errors while setup and running on local:**
+  * SAAS Error -> Run npm rebuild saas
+  * Node Fibers Error ->\
+    npm uninstall fibers\
+    npm install fibers\
+    (restart your machine)\
+    also please check the terminal for the warning and command suggestions
+  * GYP Error -> follow the command suggestion in the terminal
+  * Note: please restart system
+  *   MAC M1 Error:
+
+      alias python=/usr/bin/python3
+
+      eval "$(pyenv init --path)"
+
+      Mac M1 chip set gives an canvas error which can be solved by following commands
+
+For more details and query please go through the below discussion thread&#x20;
+
+[https://github.com/orgs/Sunbird-coKreat/discussions/65](https://github.com/orgs/Sunbird-coKreat/discussions/65)\
