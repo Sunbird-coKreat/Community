@@ -65,6 +65,14 @@
 * [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
 * [Issue tracker/Create Issue](engage/issue-tracker-create-issue.md)
 
+## Contribute
+
+* [CoKreat Portal](contribute/cokreat-portal/README.md)
+  * [Technical Architecture](contribute/cokreat-portal/technical-architecture.md)
+  * [Project Structure](contribute/cokreat-portal/project-structure.md)
+* [Contribution Service](contribute/contribution-service/README.md)
+  * [Technical Architecture](contribute/contribution-service/technical-architecture.md)
+
 ## Archived
 
 * [Components](archived/components/README.md)
