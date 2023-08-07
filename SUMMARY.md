@@ -69,7 +69,7 @@
 
 * [CoKreat Portal](contribute/cokreat-portal/README.md)
   * [Technical Architecture](contribute/cokreat-portal/technical-architecture.md)
-  * [Project Structure](contribute/cokreat-portal/project-structure.md)
+  * [Code Structure](contribute/cokreat-portal/code-structure.md)
 * [Contribution Service](contribute/contribution-service/README.md)
   * [Technical Architecture](contribute/contribution-service/technical-architecture.md)
 

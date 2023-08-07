@@ -1,20 +1,24 @@
-# Project Structure
+---
+description: The page details out the different application stack of coKreat Portal.
+---
 
-The source code can be found on :\
-GIthub Link => [https://github.com/Sunbird-coKreat/creation-portal/tree/release-6.0.0](https://github.com/Sunbird-coKreat/creation-portal/tree/release-6.0.0)
+# Code Structure
 
-## The basic code structure
+## GitHub Repository
 
-<figure><img src="../../.gitbook/assets/project_structure.png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://github.com/Sunbird-coKreat/creation-portal/tree/release-6.0.0" %}
+
+## Portal code structure
+
+<figure><img src="../../.gitbook/assets/code_structure.png" alt=""><figcaption></figcaption></figure>
 
 ## **CoKreat Portal is divided into two parts**
 
+There are two folders coKreat Portal is made up of:\
+\
+app folder => The base folder which can be also called as backend application of portal, serves as API service layer. It authenticate and validates and then routes the API calls executed from the front-end. The front-end Application folder ( client) is also&#x20;
 
-
-<figure><img src="../../.gitbook/assets/high-level.png" alt=""><figcaption></figcaption></figure>
-
-1. app => Portal backend which routes and validates the APIs executed through frontend
-2. client => Portal frontend code base (modules, components, services) which is compiled by browser for user to perform various actions
+client folder => Portal front-end code base (modules, components, services) which is compiled by browser for user to perform various actions
 
 ### **App**
 
