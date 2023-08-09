@@ -67,11 +67,19 @@
 
 ## Contribute
 
-* [CoKreat Portal](contribute/cokreat-portal/README.md)
-  * [Technical Architecture](contribute/cokreat-portal/technical-architecture.md)
-  * [Code Structure](contribute/cokreat-portal/code-structure.md)
-* [Contribution Service](contribute/contribution-service/README.md)
-  * [Technical Architecture](contribute/contribution-service/technical-architecture.md)
+* [Source Code](contribute/source-code/README.md)
+  * [CoKreat Portal](contribute/source-code/cokreat-portal/README.md)
+    * [Architecture](contribute/source-code/cokreat-portal/architecture.md)
+    * [Developer Guide](contribute/source-code/cokreat-portal/developer-guide/README.md)
+      * [Component Diagrams](contribute/source-code/cokreat-portal/developer-guide/component-diagrams.md)
+  * [Contribution(Program) Service](contribute/source-code/contribution-program-service/README.md)
+    * [Contribution(Program) Service Architecture](contribute/source-code/contribution-program-service/contribution-program-service-architecture.md)
+    * [Data Models](contribute/source-code/contribution-program-service/data-models/README.md)
+      * [Postgres](contribute/source-code/contribution-program-service/data-models/postgres.md)
+      * [Redis](contribute/source-code/contribution-program-service/data-models/redis.md)
+    * [APIs](contribute/source-code/contribution-program-service/apis.md)
+    * [Configuration](contribute/source-code/contribution-program-service/configuration.md)
+    * [Page](contribute/source-code/contribution-program-service/page.md)
 
 ## Archived
 
