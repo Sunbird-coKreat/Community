@@ -78,8 +78,7 @@
       * [Postgres](contribute/source-code/contribution-program-service/data-models/postgres.md)
       * [Redis](contribute/source-code/contribution-program-service/data-models/redis.md)
     * [APIs](contribute/source-code/contribution-program-service/apis.md)
-    * [Configuration](contribute/source-code/contribution-program-service/configuration.md)
-    * [Page](contribute/source-code/contribution-program-service/page.md)
+    * [Flink Jobs](contribute/source-code/contribution-program-service/flink-jobs.md)
 
 ## Archived
 
