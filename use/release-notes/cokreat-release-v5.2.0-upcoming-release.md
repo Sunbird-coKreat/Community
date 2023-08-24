@@ -2,13 +2,13 @@
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date | Version |
-| ------- | ------------ | ------- |
-| cokreat | 29 June 2023 | v6.0.0  |
+| Project |  Release Date  | Version |
+| ------- | -------------- | ------- |
+| cokreat | 24 August 2023 | v6.0.0  |
 
 ### **Objectives of the coKreat release v6.0.0**
 
-Angular upgrade of coKreat portal from 11-14 and Angular upgrade of workspace from 11-14
+Angular version upgrade of coKreat and worspace from 11 to 14 plus changes to make coKreat portal cloud agnostic 
 
 ### Scope:
 
@@ -31,6 +31,11 @@ This document contains information on the following existing bugs of the coKreat
 **coKreat Rel 6.0.0 Sprint 3:**
 
 <table><thead><tr><th width="93">Sl.no</th><th width="120">JIRA Id</th><th width="158">Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-463</td><td>Minor-Enhancement</td><td>Workspace Postman collection for ease of adoption</td></tr><tr><td>2</td><td>CO-436</td><td>Minor-Enhancement</td><td>Testing of cokreat portal workflows post Angular version upgrade from 11 to 14</td></tr><tr><td>3</td><td>CO-425</td><td>Minor-Enhancement</td><td>Contribution Portal>>Individual contributor related test scenarios mapping/updation</td></tr><tr><td>4</td><td>CO-426</td><td>Minor-Enhancement</td><td>Contribution Portal>>contribution org related test scenarios mapping/updation</td></tr><tr><td>5</td><td>CO-428</td><td>Minor-Enhancement</td><td>Contribution Portal>>Default org contributors related test scenarios mapping/updation</td></tr><tr><td>6</td><td>CO-459</td><td>Documentation-Issue</td><td>Demystification: Creation-Portal documentation</td></tr><tr><td>7</td><td>CO-460</td><td>Documentation-Issue</td><td>Demystification: Program-Service documentation</td></tr><tr><td>8</td><td>CO-290</td><td>Documentation-Issue</td><td>List all the form configuration on microsite</td></tr><tr><td>9</td><td>CO-437</td><td>Bug</td><td>Site is blank after deploying 6.0-ng-v14 branch on dev instance</td></tr><tr><td>10</td><td>CO-441</td><td>Bug</td><td>Program-service: Cert issue to access dev sunbird endpoint</td></tr><tr><td>11</td><td>CO-452</td><td>Bug</td><td>The program publish api is failing when copying the collection from Ed portal to cokreat</td></tr></tbody></table>
+
+**coKreat Rel 6.0.1:**
+
+<table><thead><tr><th width="93">Sl.no</th><th width="120">JIRA Id</th><th width="158">Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-514</td><td>Feature</td><td>Epic for all the changes made in coKrea to make it cloud agnostic</td></tr></tbody></table>
+
 
 **Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12810)
 
