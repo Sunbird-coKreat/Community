@@ -75,8 +75,10 @@ sunbird_gcloud_project_id={{cloud_public_storage_project | default("")}
 
 Along with above service, we need to take latest changes from Knowlg and inQuiry building blocks  please use below release notes to deploy in coKreat.
 
-{% embed url="https://knowlg.sunbird.org/use/release-notes/release-5.4.0" %}
-knowlg release notes
+
+
+{% embed url="https://knowlg.sunbird.org/use/release-notes/release-5.5.0#hot-fix-5.5.1-08-08-2023" %}
+Knowlg release notes&#x20;
 {% endembed %}
 
 {% embed url="https://inquiry.sunbird.org/use/release-notes/inquiry-release-v5.7.0-latest" %}
