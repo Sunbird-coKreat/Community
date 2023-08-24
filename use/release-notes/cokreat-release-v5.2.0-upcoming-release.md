@@ -2,13 +2,16 @@
 
 ### Document release version <a href="#document-release-version" id="document-release-version"></a>
 
-| Project | Release Date | Version |
-| ------- | ------------ | ------- |
-| cokreat | 29 June 2023 | v6.0.0  |
+| Project | Release Date   | Version |
+| ------- | -------------- | ------- |
+| coKreat | 29 June 2023   | v6.0.0  |
+| coKreat | 24 August 2023 | v6.0.1  |
 
 ### **Objectives of the coKreat release v6.0.0**
 
-Angular upgrade of coKreat portal from 11-14 and Angular upgrade of workspace from 11-14
+v6.0.0 ->Angular upgrade of coKreat portal from 11-14 and Angular upgrade of workspace from 11-14
+
+v6.0.1 -> changes to make portal code completely cloud agnostic.
 
 ### Scope:
 
@@ -19,6 +22,12 @@ coKreat product release features and issues are described in this version 6.0.0.
 This document contains information on the following existing bugs of the coKreat product
 
 ### **Description of the Product Features**
+
+**coKreat Rel 6.0.1:**
+
+In this minor release we have made coKreat cloud agnostic by integrating [Knowlg file upload library ](https://github.com/Sunbird-Knowlg/sunbird-file-upload-library)
+
+<table><thead><tr><th width="93">Sl.no</th><th width="100">JIRA Id</th><th>Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-514</td><td>Epic (Feature)</td><td>All the changes made to make coKreat cloud agnostic </td></tr></tbody></table>
 
 **coKreat Rel 6.0.0 Sprint 1:**
 
