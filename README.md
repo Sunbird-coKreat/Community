@@ -1,5 +1,11 @@
 # Overview
 
+### Latest release v6.0.0
+
+{% content-ref url="use/release-notes/cokreat-release-v5.2.0-upcoming-release.md" %}
+[cokreat-release-v5.2.0-upcoming-release.md](use/release-notes/cokreat-release-v5.2.0-upcoming-release.md)
+{% endcontent-ref %}
+
 ### _What is Sunbird coKreat?_
 
 Sunbird coKreat is a building block that allows sourcing of various digital assets required for learning, capacity building, or professional development solutions. The solutions are applicable in multiple domains such as education, healthcare, and many more.
