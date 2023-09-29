@@ -58,26 +58,25 @@
   * [coKreat Release v4.7.0](use/release-notes/cokreat-release-v4.7.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
+* [Developer guide](use/source-code/README.md)
+  * [CoKreat Portal](use/source-code/cokreat-portal/README.md)
+    * [Architecture](use/source-code/cokreat-portal/architecture.md)
+    * [Developer Guide](use/source-code/cokreat-portal/developer-guide/README.md)
+      * [Component Diagrams](use/source-code/cokreat-portal/developer-guide/component-diagrams.md)
+  * [Contribution(Program) Service](use/source-code/contribution-program-service/README.md)
+    * [Contribution(Program) Service Architecture](use/source-code/contribution-program-service/contribution-program-service-architecture.md)
+    * [Data Models](use/source-code/contribution-program-service/data-models/README.md)
+      * [Postgres](use/source-code/contribution-program-service/data-models/postgres.md)
+      * [Redis](use/source-code/contribution-program-service/data-models/redis.md)
+    * [APIs](use/source-code/contribution-program-service/apis.md)
+    * [Flink Jobs](use/source-code/contribution-program-service/flink-jobs.md)
 
 ## ENGAGE
 
-* [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
 * [Issue tracker/Create Issue](engage/issue-tracker-create-issue.md)
+* [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
 
 ## Contribute
-
-* [Source Code](contribute/source-code/README.md)
-  * [CoKreat Portal](contribute/source-code/cokreat-portal/README.md)
-    * [Architecture](contribute/source-code/cokreat-portal/architecture.md)
-    * [Developer Guide](contribute/source-code/cokreat-portal/developer-guide/README.md)
-      * [Component Diagrams](contribute/source-code/cokreat-portal/developer-guide/component-diagrams.md)
-  * [Contribution(Program) Service](contribute/source-code/contribution-program-service/README.md)
-    * [Contribution(Program) Service Architecture](contribute/source-code/contribution-program-service/contribution-program-service-architecture.md)
-    * [Data Models](contribute/source-code/contribution-program-service/data-models/README.md)
-      * [Postgres](contribute/source-code/contribution-program-service/data-models/postgres.md)
-      * [Redis](contribute/source-code/contribution-program-service/data-models/redis.md)
-    * [APIs](contribute/source-code/contribution-program-service/apis.md)
-    * [Flink Jobs](contribute/source-code/contribution-program-service/flink-jobs.md)
 
 ## Archived
 
