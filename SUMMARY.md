@@ -56,10 +56,6 @@
   * [coKreat - Release v5.0.2](use/release-notes/cokreat-release-v5.0.2-upcoming.md)
   * [coKreat - Release v5.0.1](use/release-notes/cokreat-release-v5.0.1-upcoming.md)
   * [coKreat - Release v5.0.0](use/release-notes/cokreat-release-v5.0.0-live.md)
-  * [coKreat - Release v4.10.0](use/release-notes/cokreat-release-v4.10.0.md)
-  * [coKreat - Release v4.9.0](use/release-notes/cokreat-release-v4.9.0.md)
-  * [coKreat - Release v4.8.0](use/release-notes/cokreat-release-v4.8.0.md)
-  * [coKreat Release v4.7.0](use/release-notes/cokreat-release-v4.7.0.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
 
