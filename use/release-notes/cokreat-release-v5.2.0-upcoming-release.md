@@ -1,99 +1,128 @@
 # coKreat- Release v6.0.0 (Latest release)
 
-### Document release version <a href="#document-release-version" id="document-release-version"></a>
+| Release Date | Version |
+| ------------ | ------- |
+| 29 June 2023 | v6.0.0  |
+| 29 Sep 2023  | v6.0.1  |
 
-| Project | Release Date | Version |
-| ------- | ------------ | ------- |
-| coKreat | 29 June 2023 | v6.0.0  |
-| coKreat | 29 Sep 2023  | v6.0.1  |
+### **Overview**
 
-### **Objectives of the coKreat release v6.0.0**
+v6.0.0 -> Angular upgrade of coKreat portal from 11-14 is done in this release.
 
-v6.0.0 ->Angular upgrade of coKreat portal from 11-14 and Angular upgrade of workspace from 11-14
+v6.0.1 -> This release majorly highlights the CSP changes and angular upgrades. coKreat is now cloud agnostic; it will run seamlessly on any cloud service.
 
-v6.0.1 -> changes to make portal code completely cloud agnostic.
+Discussion Thread: [https://github.com/orgs/Sunbird-coKreat/discussions/87](https://github.com/orgs/Sunbird-coKreat/discussions/87)
 
-### Scope:
+### Enhancements / Technical Tasks
 
-coKreat product release features and issues are described in this version 6.0.0. This document contains a short description of bugs to the coKreat product.
+1. coKreat is now cloud-agnostic ([co-514](https://project-sunbird.atlassian.net/browse/CO-514))
 
-### **Summary of the Product Features:**
+<details>
 
-This document contains information on the following existing bugs of the coKreat product
+<summary>Details</summary>
 
-### **Description of the Product Features**
+From this release, coKreat proudly supports cloud agnosticity, allowing you to deploy and run the platform seamlessly across various cloud providers. This means you have the freedom to choose the cloud environment that best suits your organization's needs, whether it's AWS, Azure, Google Cloud, or others.
 
-**coKreat Rel 6.0.1:**
+\
+For more details on the node services, backend services, and file upload plugins, refer [CSP changes](https://ed.sunbird.org/\~/changes/c4YpJpIRZcszTUHGkkDJ/use/developer-guide/csp-changes)
 
-In this minor release we have made coKreat cloud agnostic by integrating [Knowlg file upload library ](https://github.com/Sunbird-Knowlg/sunbird-file-upload-library)
+</details>
 
-<table><thead><tr><th width="93">Sl.no</th><th width="100">JIRA Id</th><th>Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-514</td><td>Epic (Feature)</td><td>All the changes made to make coKreat cloud agnostic </td></tr></tbody></table>
+2. Angular Upgrades
 
-**coKreat Rel 6.0.0 Sprint 1:**
+<details>
 
-<table><thead><tr><th width="93">Sl.no</th><th width="100">JIRA Id</th><th>Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-391</td><td>RFC</td><td>Collection-Editor: Angular upgrade 11 to 14 dependencies (@project-sunbird/sunbird-collection-editor)</td></tr><tr><td>2</td><td>CO-361</td><td>Minor-Enhancement</td><td>To update workspace angular version from 11 to 12</td></tr><tr><td>3</td><td>CO-383</td><td>Minor-Enhancement</td><td>To upgrade workspace angular version from 13 to 14</td></tr><tr><td>4</td><td>CO-369</td><td>Minor-Enhancement</td><td>coKreat portal>>QuML player: Integrate as Angular component</td></tr><tr><td>5</td><td>CO-374</td><td>Minor-Enhancement</td><td>PDF Player: : Integrate as Angular component</td></tr><tr><td>6</td><td>CO-376</td><td>Minor-Enhancement</td><td>Video Player: : Integrate as Angular component</td></tr><tr><td>7</td><td>CO-382</td><td>Minor-Enhancement</td><td>To upgrade workspace angular version from 12 to 13</td></tr><tr><td>8</td><td>CO-395</td><td>Minor-Enhancement</td><td>POC : Workspace Module migration as web components in cokreat</td></tr><tr><td>9</td><td>CO-398</td><td>Minor-Enhancement</td><td>Workspace angular upgrade to v14>>Integrate sunbird-collection-editor into workspace module post SB ED's angular upgrade to v14</td></tr><tr><td>10</td><td>CO-360</td><td>Epic</td><td>To upgrade coKreat portal angular version from 11 to 14</td></tr><tr><td>11</td><td>CO-401</td><td>Bug</td><td>integrate the resource editor</td></tr></tbody></table>
+<summary>Details</summary>
 
-**coKreat Rel 6.0.0 Sprint 2:**
+Angular migration is completed for coKreat from v11 to v14
 
-<table><thead><tr><th width="93">Sl.no</th><th width="100">JIRA Id</th><th>Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-358</td><td>Minor-Enhancement</td><td>coKreat portal Angular upgrade from 11 to 12</td></tr><tr><td>2</td><td>CO-381</td><td>Minor-Enhancement</td><td>coKreat portal Angular upgrade from 13 to 14</td></tr><tr><td>3</td><td>CO-335</td><td>Minor-Enhancement</td><td>Remove unused and redundant code from coKreat portal - PART 2</td></tr><tr><td>4</td><td>CO-362</td><td>Minor-Enhancement</td><td>coKreat portal Angular upgrade from 12 to 13</td></tr><tr><td>5</td><td>CO-407</td><td>Minor-Enhancement</td><td>Sourcing>>Project with target collection related test scenarios mapping/updation</td></tr><tr><td>6</td><td>CO-413</td><td>Minor-Enhancement</td><td>Sourcing>>Project without target collection related test scenarios mapping/updation</td></tr><tr><td>7</td><td>CO-423</td><td>Minor-Enhancement</td><td>Sourcing>>Reports related test scenarios mapping/updation</td></tr><tr><td>8</td><td>CO-437</td><td>Bug</td><td>Site is blank after deploying 6.0-ng-v14 branch on dev instance</td></tr></tbody></table>
+</details>
 
-**coKreat Rel 6.0.0 Sprint 3:**
+3. Removing unused and redundant code&#x20;
 
-<table><thead><tr><th width="93">Sl.no</th><th width="120">JIRA Id</th><th width="158">Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-463</td><td>Minor-Enhancement</td><td>Workspace Postman collection for ease of adoption</td></tr><tr><td>2</td><td>CO-436</td><td>Minor-Enhancement</td><td>Testing of cokreat portal workflows post Angular version upgrade from 11 to 14</td></tr><tr><td>3</td><td>CO-425</td><td>Minor-Enhancement</td><td>Contribution Portal>>Individual contributor related test scenarios mapping/updation</td></tr><tr><td>4</td><td>CO-426</td><td>Minor-Enhancement</td><td>Contribution Portal>>contribution org related test scenarios mapping/updation</td></tr><tr><td>5</td><td>CO-428</td><td>Minor-Enhancement</td><td>Contribution Portal>>Default org contributors related test scenarios mapping/updation</td></tr><tr><td>6</td><td>CO-459</td><td>Documentation-Issue</td><td>Demystification: Creation-Portal documentation</td></tr><tr><td>7</td><td>CO-460</td><td>Documentation-Issue</td><td>Demystification: Program-Service documentation</td></tr><tr><td>8</td><td>CO-290</td><td>Documentation-Issue</td><td>List all the form configuration on microsite</td></tr><tr><td>9</td><td>CO-452</td><td>Bug</td><td>The program publish api is failing when copying the collection from Ed portal to cokreat</td></tr><tr><td>10</td><td>CO-441</td><td>Bug</td><td>Program-service: Cert issue to access dev sunbird endpoint</td></tr></tbody></table>
+<details>
 
-**Prashnavali :**&#x20;
+<summary>Details</summary>
 
-<table><thead><tr><th width="93">Sl.no</th><th width="120">JIRA Id</th><th width="158">Issue Type</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>CO-316</td><td>Minor-Enhancement</td><td>Reduce spacing in the table in print preview</td></tr><tr><td>2</td><td>CO-229</td><td>Minor-Enhancement</td><td>The basic details at the top of the paper and the Options lables for MCQ questions (क), ख), ग), घ) should be in Hindi, when medium of instruction is chosen as Hindi</td></tr></tbody></table>
+Some time of the release was planned to remove unused and redundant code from coKreat and make the code more reusable and readable
 
-**Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12810)
+</details>
 
-**Test Cases:** [**Link**](https://docs.google.com/spreadsheets/d/1v3YnczXlEYd8UhHUHofY6meHqYni6cZjboE5eVU40N0/edit#gid=1378760827)
+4. Reduce spacing in the table in print preview ([co-316](https://project-sunbird.atlassian.net/browse/CO-316)) : _**Prashnavali**_
+5. The basic details at the top of the paper and the Options lables for MCQ questions (क), ख), ग), घ) should be in Hindi, when medium of instruction is chosen as Hindi ([co-229](https://project-sunbird.atlassian.net/browse/CO-229)) : _**Prashnavali**_
+6. Increasing test coverage percentage
 
-**Test case execution sheet:** [**Link**](https://docs.google.com/spreadsheets/d/1v3YnczXlEYd8UhHUHofY6meHqYni6cZjboE5eVU40N0/edit#gid=1378760827)
+<details>
 
-**Prashnavali Scope:** [**CO-229**](https://project-sunbird.atlassian.net/browse/CO-229) **and** [**CO-316**](https://project-sunbird.atlassian.net/browse/CO-316)
+<summary>Details</summary>
 
+Test coverage percentage is now 38%
 
+</details>
 
-### **Upgrade to release-5.1.0**:
+4. Postman collection for Object Categories and category definitions&#x20;
+5. Architecture and component diagrams for coKreat and updating same in the micro-site
+6. Architecture diagram, Data models and APIs for Contribution Service and updating same in the micro-site
 
-#### Configurations:
+### Bug Fixes
 
-<table><thead><tr><th width="161">Variable Name</th><th width="144">Service Name</th><th width="196">Default Public Value</th><th width="126">Private Value Override</th><th width="189">Comments</th></tr></thead><tbody><tr><td>sunbird_cloud_storage_key</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_secret</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_report_container</td><td>Player</td><td>reports</td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_region</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_container</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_gcloud_project_id</td><td>Player</td><td></td><td></td><td></td></tr></tbody></table>
+1. Program-service: Cert issue to access dev sunbird endpoint ([co-441](https://project-sunbird.atlassian.net/browse/CO-441))
+2. The program publish api is failing when copying the collection from Ed portal to cokreat ([co-452](https://project-sunbird.atlassian.net/browse/CO-452))
 
-####
-
-**Sample configuration for ED:**
-
-```
-sunbird_cloud_storage_key={{cloud_private_storage_accountname | default("")}}
-sunbird_cloud_storage_secret={{cloud_private_storage_secret | default("")}}
-sunbird_cloud_storage_container={{cloud_storage_public_bucketname | default("")}}
-sunbird_cloud_report_container={{cloud_storage_privatereports_bucketname | default("reports")}}
-sunbird_cloud_storage_region={{cloud_private_storage_region | default("")}}
-sunbird_gcloud_project_id={{cloud_public_storage_project | default("")}
-```
-
-#### Jenkins Jobs:
+### coKreat Build Tags
 
 | Service to be Build      | Build Tag     | Service to Deploy         | Deploy Tag         | Comments |
 | ------------------------ | ------------- | ------------------------- | ------------------ | -------- |
-| Build/Kubernetes/Player  | release-6.0.1 | Deploy/Kubernetes/Player  | release-6.0.1\_RC1 |          |
+| Build/Kubernetes/Player  | release-6.0.1 | Deploy/Kubernetes/Player  | release-6.0.1\_RC2 |          |
 | Build/Kubernetes/Program | release-6.0.1 | Deploy/Kubernetes/Program | release-6.0.1\_RC1 |          |
 
-Along with above service, we need to take latest changes from Knowlg and inQuiry building blocks  please use below release notes to deploy in coKreat.
+### Build Tags for other dependant BBs
+
+The build tags used by the below building blocks for this release to upgrade coKreat are:&#x20;
+
+[Sunbird ED](https://ed.sunbird.org/use/release/updating-sunbird-releases/5.2.0-to-6.0.0#sunbirded)
+
+[Sunbird Lern](https://ed.sunbird.org/use/release/updating-sunbird-releases/5.2.0-to-6.0.0#sunbird-lern)
+
+[Sunbird Obsrv](https://ed.sunbird.org/use/release/updating-sunbird-releases/5.2.0-to-6.0.0#sunbird-obsrv)
+
+[Sunbird Knowlg](https://ed.sunbird.org/use/release/updating-sunbird-releases/5.2.0-to-6.0.0#sunbird-knowlg)
+
+[Sunbird Inquiry](https://ed.sunbird.org/use/release/updating-sunbird-releases/5.2.0-to-6.0.0#sunbird-inquiry)
+
+### Release Notes: Dependent building blocks
+
+Sunbird-Knowlg: [v 5.5.0](https://knowlg.sunbird.org/use/release-notes/release-5.5.0-latest)
+
+Sunbird-Obsrv: [v 5.1.0](https://obsrv.sunbird.org/use/release-notes/release-v-5.1.0)
+
+Sunbird-Lern: [v 5.3.0](https://lern.sunbird.org/use/release-notes/release-v-5.3.0)
+
+_**Note**: Only PII changes are taken in this release. RC migration is planned for future releases._
+
+Sunbird-inQuiry: [v 5.7.0](https://inquiry.sunbird.org/use/release-notes/inquiry-release-v5.7.0-latest)
+
+_**Note**_: _Question set editor is not integrated, planned for future releases._
+
+Sunbird-CoKreat: [v 5.2.0](https://cokreat.sunbird.org/use/release-notes/cokreat-release-v5.2.0-upcoming-release)
 
 
 
-{% embed url="https://knowlg.sunbird.org/use/release-notes/release-5.5.0#hot-fix-5.5.1-08-08-2023" %}
-Knowlg release notes&#x20;
-{% endembed %}
+### Configuration / Environment Variables Changes
 
-{% embed url="https://inquiry.sunbird.org/use/release-notes/inquiry-release-v5.7.0-latest" %}
-inQuiry release notes
-{% endembed %}
+This section provides a list of environment variables with their default values and descriptions required to run either the coKreat portal To change the default behaviour, modify the variable value based on your requirements.
 
-#### Migration scripts:
+<table><thead><tr><th width="161">Variable Name</th><th width="144">Service Name</th><th width="196">Default Public Value</th><th width="126">Private Value Override</th><th width="189">Comments</th></tr></thead><tbody><tr><td>sunbird_cloud_storage_key</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_secret</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_report_container</td><td>Player</td><td>reports</td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_region</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_cloud_storage_container</td><td>Player</td><td></td><td></td><td></td></tr><tr><td>sunbird_gcloud_project_id</td><td>Player</td><td></td><td></td><td></td></tr></tbody></table>
+
+
+
+### **Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12810)
+
+### **Test Cases:** [**Link**](https://docs.google.com/spreadsheets/d/1v3YnczXlEYd8UhHUHofY6meHqYni6cZjboE5eVU40N0/edit#gid=1378760827)
+
+### **Test case execution sheet:** [**Link**](https://docs.google.com/spreadsheets/d/1v3YnczXlEYd8UhHUHofY6meHqYni6cZjboE5eVU40N0/edit#gid=1378760827)
+
+### Migration scripts:
 
 Please refer below documents for CSP migration for coKreat
 
