@@ -34,7 +34,8 @@
 
 ## USE
 
-* [Overview](use/overview.md)
+* [Deployment](use/deployment/README.md)
+  * [Deployment Diagram](use/deployment/overview.md)
 * [System requirements](use/system-requirements.md)
 * [Installation guide](use/installation-guide.md)
   * [Windows Installation](use/installation-guide/windows-installation.md)
