@@ -1,4 +1,4 @@
-# Contributor registry
+# Install locally
 
 ### System requirements
 

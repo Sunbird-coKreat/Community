@@ -35,7 +35,7 @@
 ## USE
 
 * [Deployment](use/deployment/README.md)
-  * [Deployment Diagram](use/deployment/overview.md)
+  * [Deployment Diagram](use/overview.md)
 * [System requirements](use/system-requirements.md)
 * [Installation guide](use/installation-guide.md)
   * [Windows Installation](use/installation-guide/windows-installation.md)
@@ -43,10 +43,23 @@
   * [Installation Document](use/installation-guide/installation-document.md)
 * [Installing Cokreat Platform](use/installing-cokreat-platform/README.md)
   * [release-6.0.0](use/installing-cokreat-platform/installation-document.md)
-* [Developer Installation](use/developer-installation/README.md)
-  * [Reference coKreat Web App](use/developer-installation/reference-cokreat-web-app.md)
-  * [Contribution Service](use/developer-installation/contribution-service.md)
-  * [Contributor registry](use/developer-installation/contributor-registry.md)
+* [Developer Guide](use/developer-guide/README.md)
+  * [Reference coKreat Web APP](use/developer-guide/reference-cokreat-web-app/README.md)
+    * [Architecture Component Diagram](use/developer-guide/reference-cokreat-web-app/architecture-component-diagram.md)
+    * [Install Locally](use/developer-guide/reference-cokreat-web-app/reference-cokreat-web-app.md)
+    * [Configuration](use/developer-guide/reference-cokreat-web-app/configuration.md)
+    * [Component Diagrams](use/developer-guide/reference-cokreat-web-app/component-diagrams.md)
+  * [Contribution Service](use/developer-guide/contribution-service/README.md)
+    * [Architecture](use/developer-guide/contribution-service/architecture.md)
+    * [Install Locally](use/developer-guide/contribution-service/contribution-service.md)
+    * [Configuration](use/developer-guide/contribution-service/configuration.md)
+    * [Data Models](use/developer-guide/contribution-service/data-models/README.md)
+      * [Postgres](use/developer-guide/contribution-service/data-models/postgres.md)
+      * [Redis](use/developer-guide/contribution-service/data-models/redis.md)
+  * [Contribution Registry](use/developer-guide/contribution-registry/README.md)
+    * [Install locally](use/developer-guide/contribution-registry/install-locally.md)
+  * [APIs](use/developer-guide/apis.md)
+  * [Flink Jobs](use/developer-guide/flink-jobs.md)
 * [Release Calendar](use/release-plan-and-calendar/README.md)
 * [Release notes](use/release-notes/README.md)
   * [coKreat- Release v6.0.0 (Latest release)](use/release-notes/cokreat-release-v5.2.0-upcoming-release.md)
@@ -56,22 +69,11 @@
 ## ENGAGE
 
 * [Discuss](https://github.com/Sunbird-coKreat/Community/discussions)
-* [Issue tracker/Create Issue](engage/issue-tracker-create-issue.md)
 
 ## Contribute
 
-* [Source Code](contribute/source-code/README.md)
-  * [CoKreat Portal](contribute/source-code/cokreat-portal/README.md)
-    * [Architecture](contribute/source-code/cokreat-portal/architecture.md)
-    * [Developer Guide](contribute/source-code/cokreat-portal/developer-guide/README.md)
-      * [Component Diagrams](contribute/source-code/cokreat-portal/developer-guide/component-diagrams.md)
-  * [Contribution(Program) Service](contribute/source-code/contribution-program-service/README.md)
-    * [Contribution(Program) Service Architecture](contribute/source-code/contribution-program-service/contribution-program-service-architecture.md)
-    * [Data Models](contribute/source-code/contribution-program-service/data-models/README.md)
-      * [Postgres](contribute/source-code/contribution-program-service/data-models/postgres.md)
-      * [Redis](contribute/source-code/contribution-program-service/data-models/redis.md)
-    * [APIs](contribute/source-code/contribution-program-service/apis.md)
-    * [Flink Jobs](contribute/source-code/contribution-program-service/flink-jobs.md)
+* [Issue tracker/Create Issue](contribute/issue-tracker-create-issue.md)
+* [Contribute To coKreat](contribute/contribute-to-cokreat.md)
 
 ## Archived
 
