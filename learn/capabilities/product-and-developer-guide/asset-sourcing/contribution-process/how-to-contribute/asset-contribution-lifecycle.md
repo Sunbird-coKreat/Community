@@ -8,7 +8,7 @@ Lifecycle of learning assets is a 3 stage cyclic process. Learning Assets follow
 
 Draft  --> Live --> Publish ( Import on consumption )
 
-![](../../../../../.gitbook/assets/individual.png)
+![](../../../../../../.gitbook/assets/individual.png)
 
 The initial stage of asset creation is Draft. In this stage asset creation happens.&#x20;
 
@@ -23,7 +23,7 @@ Lifecycle of learning assets is a 4 stage cyclic process.&#x20;
 Draft --> Review --> Live  --> Publish ( Import on consumption )\
 
 
-![](../../../../../.gitbook/assets/lifecycle-contributor-.png)
+![](../../../../../../.gitbook/assets/lifecycle-contributor-.png)
 
 The initial stage of asset creation is Draft. In this stage asset creation happens.&#x20;
 

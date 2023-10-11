@@ -92,7 +92,7 @@ It is an evolving software designed to be configurable, extendable to serve mult
 
 Here is a high level process workflow depicting the co-creation orchestration:
 
-![Co-creation process workflow](../../../.gitbook/assets/image-20211111-094458.png)
+![Co-creation process workflow](../../../../.gitbook/assets/image-20211111-094458.png)
 
 ### Source Code
 

@@ -77,4 +77,4 @@ Note: Users can be invited to and can be part of multiple sourcing organizations
 
 Sourcing org administrator has access to the contribution dashboard, at the level of the project, which provides a view of count of contributions by users and in what stage they are currently in. Administrators can also download this information in a csv format. Thereby allowing them to effectively manage the contributions.
 
-![](<../../../.gitbook/assets/Screen Shot 2022-03-22 at 7.42.17 PM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2022-03-22 at 7.42.17 PM.png>)

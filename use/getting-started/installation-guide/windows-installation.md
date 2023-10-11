@@ -15,7 +15,7 @@ description: Installation steps for coKreat reference web app on Windows environ
 * Download and install node version 14.18.1 and run the installer. Choose a directory, then select Next.
 * When it asks to install tools for Node JS, check the box for Automatically install the necessary tools
 
-<img src="../../.gitbook/assets/node.png" alt="" data-size="original">&#x20;
+<img src="../../../.gitbook/assets/node.png" alt="" data-size="original">&#x20;
 
 * Install Angular CLI: 13.3.3&#x20;
 * Create git account&#x20;

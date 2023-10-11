@@ -8,7 +8,7 @@ Contribution service offers the APIs for creating and managing projects, their n
 
 Program APIs provide the ability to organizations to create and manage projects to get the crowdsourcing of assets.
 
-![](<../../../.gitbook/assets/Program APIs (1).png>)
+![](<../../../../.gitbook/assets/Program APIs (1).png>)
 
 **Key features**
 
@@ -30,7 +30,7 @@ Nomination APIs provide the ability to nominate and manage nominations made to t
 
 Click [here](https://documenter.getpostman.com/view/25186239/2s935ivSkP#803946b4-b678-4a80-92ea-fdf06b73dde4) for Nomination APIs
 
-![](../../../.gitbook/assets/nomination.png)
+![](../../../../.gitbook/assets/nomination.png)
 
 ### Report API
 

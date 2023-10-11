@@ -2,8 +2,8 @@
 
 ### Latest release v6.0.0
 
-{% content-ref url="use/release-notes/cokreat-release-v5.2.0-upcoming-release.md" %}
-[cokreat-release-v5.2.0-upcoming-release.md](use/release-notes/cokreat-release-v5.2.0-upcoming-release.md)
+{% content-ref url="use/release-notes.md" %}
+[release-notes.md](use/release-notes.md)
 {% endcontent-ref %}
 
 ### _What is Sunbird coKreat?_

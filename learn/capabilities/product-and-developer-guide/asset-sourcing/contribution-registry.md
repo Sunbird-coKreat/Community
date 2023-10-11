@@ -22,7 +22,7 @@ An Individual Contributor can : \
 &#x20;\- contribute the content by nominating to the respective project as an individual.\
 
 
-![](../../../.gitbook/assets/os\_search.png)
+![](../../../../.gitbook/assets/os\_search.png)
 
 ### API documentation
 

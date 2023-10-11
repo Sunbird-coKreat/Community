@@ -14,7 +14,7 @@ b) **content** like resource&#x20;
 
 c) **question sets** like course assessment
 
-![](<../../../.gitbook/assets/Screen Shot 2022-02-11 at 6.36.24 PM.png>)
+![](<../../../../.gitbook/assets/Screen Shot 2022-02-11 at 6.36.24 PM.png>)
 
 ### Collection
 
@@ -22,25 +22,25 @@ Collection is a group of content which is structured in a specific sequence. For
 
 Collection editor, which powers the creation of collections, enables creators to create this structure, add relevant content and appropriate tagging as shown in the below screenshots.&#x20;
 
-![Course Editor](<../../../.gitbook/assets/Screen Shot 2022-02-14 at 12.17.22 PM.png>)
+![Course Editor](<../../../../.gitbook/assets/Screen Shot 2022-02-14 at 12.17.22 PM.png>)
 
 
 
-![Collection editor - Add content](<../../../.gitbook/assets/Screen Shot 2022-02-14 at 12.29.09 PM.png>)
+![Collection editor - Add content](<../../../../.gitbook/assets/Screen Shot 2022-02-14 at 12.29.09 PM.png>)
 
 ### Content
 
 Asset type content can have different categories such as explanation content, learning resource etc. These categories and their behaviour can be created and defined at system level by the system administrator. Basis the need, different types of editors can be configured to enable the creation of content. For example, generic editor can be configured if you would want your creators to upload content or an interactive editor if you would want your creators to create content from scratch on the portal as shown in the below screen shots.&#x20;
 
-![Generic editor](<../../../.gitbook/assets/Screen Shot 2022-02-14 at 1.30.01 PM.png>)
+![Generic editor](<../../../../.gitbook/assets/Screen Shot 2022-02-14 at 1.30.01 PM.png>)
 
-![Interactive editor](<../../../.gitbook/assets/Screen Shot 2022-02-14 at 1.49.47 PM.png>)
+![Interactive editor](<../../../../.gitbook/assets/Screen Shot 2022-02-14 at 1.49.47 PM.png>)
 
 ### Question set
 
 Depending on your use cases, asset type question set can have different categories such as assessments, worksheets, surveys etc. These categories and their behaviour can be defined by the system administrator. The creation of question sets is enabled by the question set editor.&#x20;
 
-![Question set editor](<../../../.gitbook/assets/Screen Shot 2022-02-14 at 1.41.51 PM.png>)
+![Question set editor](<../../../../.gitbook/assets/Screen Shot 2022-02-14 at 1.41.51 PM.png>)
 
 
 
