@@ -10,7 +10,7 @@ The steps to install frontend web application of the co-kreat, are given in here
 
 {% embed url="https://github.com/Sunbird-Ed/creation-portal/tree/release-4.8.0#readme" %}
 
-![](../../../.gitbook/assets/coKreat\_APP.jpg)
+![](../../../../.gitbook/assets/coKreat\_APP.jpg)
 
 **Schemas:**
 
