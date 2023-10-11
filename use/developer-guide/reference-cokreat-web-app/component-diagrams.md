@@ -12,13 +12,13 @@ description: The page details out the different application stack of coKreat Por
 
 
 
-<figure><img src="../../../../.gitbook/assets/portal-l1.png" alt=""><figcaption><p>L1 architecture</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/portal-l1.png" alt=""><figcaption><p>L1 architecture</p></figcaption></figure>
 
 Each block of the architecture is explained in the document.&#x20;
 
 ## Portal code structure
 
-<figure><img src="../../../../.gitbook/assets/code_structure.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/code_structure.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -32,7 +32,7 @@ There are two folders coKreat Portal is made up of:\
 
 The client folder includes the source code for the Angular application. This folder includes various components, modules, services, styles, and other assets necessary to build the front end of the application.
 
-<figure><img src="../../../../.gitbook/assets/portal-l1-clientAPPs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/portal-l1-clientAPPs.png" alt=""><figcaption></figcaption></figure>
 
 [**Program Module**](https://sunbird-cokreat.github.io/docs/coKreat/modules/ProgramModule.html)
 
@@ -85,7 +85,7 @@ Module being used to handle telemetry events
 
 The angular libraries are designed to be used in portal to drive re-usability, maintainability hence reducing the redundant development effort significantly.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/portal-l1-frontendLibs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/portal-l1-frontendLibs.png" alt=""><figcaption></figcaption></figure>
 
 The following NPM packages which are listed in package.json and are installed in front-end client folder:
 
@@ -99,7 +99,7 @@ It leverages a keyCloakHelper file to handle login and logout functionalities wh
 
 Additionally, the interface integrates multiple API middleware functions to accomplish tasks such as token verification, API whitelisting, and customising request headers as needed.
 
-<figure><img src="../../../../.gitbook/assets/portal-l1-app.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/portal-l1-app.png" alt=""><figcaption></figcaption></figure>
 
 Following files/folders has the code to carry out routing, API whitelist  checking and authorising etc.
 
@@ -127,13 +127,15 @@ It contains the set-up method such as decoraterequestHeader, verifyToken, and is
 
 It contains the resource bundles for internationalization and localization purposes in the application. it is used for translations and provides a seamless way to display the application's user interface in different languages based on user preferences.
 
+{% embed url="https://www.youtube.com/watch?end=110&index=18&list=PLUrm4D0K_7nxaKpMSaetU04lhiPGwIPEn&start=102&v=l5BPgKYHfTs" %}
+
 ### **Dependent Sunbird BBs**
 
 Lots of front-end Libraries and services we are leveraging from the other building blocks.
 
 
 
-<figure><img src="../../../../.gitbook/assets/portal-l1-BBs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/portal-l1-BBs.png" alt=""><figcaption></figcaption></figure>
 
 #### **Sunbird Building Blocks which are being used in coKreat Portal**
 
