@@ -81,6 +81,8 @@ Core components to show main headers, Footer, and services like program, content
 
 Module being used to handle telemetry events
 
+{% embed url="https://youtu.be/-o2fcftrgpc?feature=shared&t=2769" %}
+
 ## Front-End Libraries
 
 The angular libraries are designed to be used in portal to drive re-usability, maintainability hence reducing the redundant development effort significantly.&#x20;

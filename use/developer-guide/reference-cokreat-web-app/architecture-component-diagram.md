@@ -1,4 +1,4 @@
-# Architecture
+# Architecture Component Diagram
 
 Below architecture diagram explains L0 architectural view of Sunbird-ED
 
@@ -19,3 +19,5 @@ Includes back-end API interface which built in Node.js framework.&#x20;
 ### Dependant Sunbird BBs
 
 coKreat portal uses lots of services and front-end libraries from other building blocks like inQuiry, Ed, knowlg, lern, obServe.
+
+{% embed url="https://youtu.be/-o2fcftrgpc?feature=shared&t=1539" %}
