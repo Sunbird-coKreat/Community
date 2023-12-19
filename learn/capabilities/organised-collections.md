@@ -24,4 +24,4 @@ The key capabilities of Collections are:
 * Ability to create and edit collections using the **'Collection editor'** tool.
 * Ability to link DIAL codes to a collection to power phygital discovery of collections.
 
-Click [here](http://127.0.0.1:5000/s/aanfWbeVT74C5lXDPde3/learn/capabilities/organised-collections) for more details.
+Click [here](https://app.gitbook.com/s/aanfWbeVT74C5lXDPde3/learn/capabilities/organised-collections) for more details.
