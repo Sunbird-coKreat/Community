@@ -12,45 +12,52 @@ Discussion Thread:&#x20;
 
 ### Enhancements / Technical Tasks
 
-1. &#x20;User deletion ([co-](https://project-sunbird.atlassian.net/browse/CO-514)668)
+1. &#x20;User deletion ([CO-668](https://project-sunbird.atlassian.net/browse/CO-668))
 
 <details>
 
 <summary>Details</summary>
 
-From this release, coKreat proudly supports cloud agnosticity, allowing you to deploy and run the platform seamlessly across various cloud providers. This means you have the freedom to choose the cloud environment that best suits your organization's needs, whether it's AWS, Azure, Google Cloud, or others.
+From this release, coKreat Handled to delete the public users in Ed, who belong the following user roles in coKreat :
 
-\
-For more details on the node services, backend services, and file upload plugins, refer [CSP changes](https://ed.sunbird.org/\~/changes/c4YpJpIRZcszTUHGkkDJ/use/developer-guide/csp-changes)
+1. Individual contributor
+2. Contributing org user
 
 </details>
 
-2. BMGS hardcode removal
+2. BMGS hardcode removal([CO-586](https://project-sunbird.atlassian.net/browse/CO-586))
 
 <details>
 
 <summary>Details</summary>
 
-Till v6.0.0 BMGS i.e&#x20;
+Till 6.0.0, The framework categories i.e Board Medium Grade and Subject were hard coded in our system.
+
+In this 7.0.0, the framework categories are not limited to Board Medium Grade and Subject, User can configure any category based on there framework requirements (eg. user can have different categories for agriculture framework and can have different categories for hospital framework), Also the number of categories will not be limited to four now user can have more than multiple categories&#x20;
 
 </details>
 
-3. Node version Upgrades
+3. Node version Upgrades([CO-606](https://project-sunbird.atlassian.net/browse/CO-606) and [CO-607](https://project-sunbird.atlassian.net/browse/CO-607))
 
 <details>
 
 <summary>Details</summary>
 
-Some time of the release was planned to remove unused and redundant code from coKreat and make the code more reusable and readable
+In this upgraded program service node version to 14 and upgraded portal node version to 16
 
 </details>
 
-4. Question set editor integration
+4. Question set editor integration([CO-384](https://project-sunbird.atlassian.net/browse/CO-384))
 
-### Bug Fixes
+<details>
 
-1. Program-service: Cert issue to access dev sunbird endpoint ([co-441](https://project-sunbird.atlassian.net/browse/CO-441))
-2. The program publish api is failing when copying the collection from Ed portal to cokreat ([co-452](https://project-sunbird.atlassian.net/browse/CO-452))
+<summary>Details</summary>
+
+As part of this we have to integration the question-set editor after upgrading to 14
+
+</details>
+
+###
 
 ### coKreat Build Tags
 
@@ -93,11 +100,11 @@ This section provides a list of environment variables with their default values 
 
 
 
-### **Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12810)
+### **Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12846\&jql=project%20%3D%20CO%20AND%20issuetype%20in%20\(Documentation-Issue%2C%20Epic%2C%20Minor-Enhancement%2C%20RFC\)%20AND%20status%20in%20\(%22In%20Progress%22%2C%20Closed%2C%20Done%2C%20%22In%20Development%22%2C%20%22In%20Validation%22%2C%20%22Selected%20for%20Contribution%22\)%20AND%20Sprint%20in%20\(490%2C%20491%2C%20449\)%20AND%20assignee%20in%20\(currentUser\(\)%2C%20640855d981de11a1adfc7b17\))
 
-### **Test Cases:** [**Link**](https://docs.google.com/spreadsheets/d/1v3YnczXlEYd8UhHUHofY6meHqYni6cZjboE5eVU40N0/edit#gid=1378760827)
+### **Test Cases:** [**Link**](https://docs.google.com/spreadsheets/d/1Wkq73Z3E7vZ8DK8J9o1GOAV4V0CmtdG97btzueEuVW8/edit#gid=863875922)
 
-### **Test case execution sheet:** [**Link**](https://docs.google.com/spreadsheets/d/1v3YnczXlEYd8UhHUHofY6meHqYni6cZjboE5eVU40N0/edit#gid=1378760827)
+### **Test case execution sheet:** [**Link**](https://docs.google.com/spreadsheets/d/1Wkq73Z3E7vZ8DK8J9o1GOAV4V0CmtdG97btzueEuVW8/edit#gid=863875922)
 
 
 
