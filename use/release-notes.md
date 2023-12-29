@@ -25,7 +25,7 @@ From this release, coKreat Handled to delete the public users in Ed, who belong 
 
 </details>
 
-2. BMGS hardcode removal([CO-586](https://project-sunbird.atlassian.net/browse/CO-586))
+2. Generalisation of cKreate by removing hard Coded Values (i.e BMGS hardcode removal)([CO-586](https://project-sunbird.atlassian.net/browse/CO-586))
 
 <details>
 
@@ -33,7 +33,11 @@ From this release, coKreat Handled to delete the public users in Ed, who belong 
 
 Till 6.0.0, The framework categories i.e Board Medium Grade and Subject were hard coded in our system.
 
-In this 7.0.0, the framework categories are not limited to Board Medium Grade and Subject, User can configure any category based on there framework requirements (eg. user can have different categories for agriculture framework and can have different categories for hospital framework), Also the number of categories will not be limited to four now user can have more than multiple categories&#x20;
+In this 7.0.0, the framework categories are not limited to Board Medium Grade and Subject, User can configure any category based on there framework requirements (eg. user can have different categories for agriculture framework and can have different categories for hospital framework), Also the number of categories will not be limited to four now user can have more than multiple categories.
+
+We have removed all the hard codeings of the categories and made it genarilised using sb-forms and we will use the Client Service Library (sunbird NPM Package) to fetch thesse categories dynamically along with the form API which will have all the other validatuions, This API will work similar to exixting form API we use to create for SB forms.
+
+We need to configure this form API with framework categories before we do the stating deployment to display all the categories&#x20;
 
 </details>
 
