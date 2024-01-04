@@ -39,6 +39,8 @@ We have removed all the hard codeings of the categories and made it genarilised 
 
 We need to configure this form API with framework categories before we do the stating deployment to display all the categories&#x20;
 
+You can refer to the postman collection [here](https://github.com/Sunbird-coKreat/docs/tree/main/postman/coKreat)
+
 </details>
 
 3. Node version Upgrades([CO-606](https://project-sunbird.atlassian.net/browse/CO-606) and [CO-607](https://project-sunbird.atlassian.net/browse/CO-607))
@@ -61,7 +63,14 @@ As part of this we have to integration the question-set editor after upgrading t
 
 </details>
 
-###
+
+
+
+
+### Open / Known Issues
+
+* In Details and Filter page all the categories will come&#x20;
+* We need to configure the editor forms and the primary category forms&#x20;
 
 ### coKreat Build Tags
 
