@@ -74,10 +74,11 @@ As part of this we have to integration the question-set editor after upgrading t
 
 ### coKreat Build Tags
 
-| Service to be Build      | Build Tag     | Service to Deploy         | Deploy Tag | Comments |
-| ------------------------ | ------------- | ------------------------- | ---------- | -------- |
-| Build/Kubernetes/Player  | release-7.0.0 | Deploy/Kubernetes/Player  |            |          |
-| Build/Kubernetes/Program | release-7.0.0 | Deploy/Kubernetes/Program |            |          |
+| Service to be Build                         | Build Tag          | Service to Deploy                                                                                                                                                                                                                                                                                                  | Deploy Tag | Comments |
+| ------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | -------- |
+| <p></p><p>Build/Kubernetes/Player</p>       | release-7.0.0\_RC1 | Deploy/Kubernetes/Player                                                                                                                                                                                                                                                                                           |            |          |
+| Build/Kubernetes/Program                    | release-7.0.0\_RC1 | Deploy/Kubernetes/Program                                                                                                                                                                                                                                                                                          |            |          |
+| Build/DockKnowledgePlatform/CoKreatFlinkJob | release-7.0.0\_RC1 | <p><a href="http://10.20.0.14:8080/jenkins/job/Deploy/job/DockDev/job/KnowledgePlatform/job/CoKreatFlinkJob/">http://10.20.0.14:8080/jenkins/job/Deploy/job/DockDev/job/KnowledgePlatform/job/CoKreatFlinkJob/</a><br><br><br>This above service is in DEV env, Please create this is Staging environment also</p> |            |          |
 
 ### Build Tags for other dependant BBs
 
