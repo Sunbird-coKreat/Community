@@ -114,6 +114,8 @@ This section provides a list of environment variables with their default values 
 
 
 
+### Inquiry Form Configurations: [Link](https://inquiry.sunbird.org/use/release-notes/inquiry-release-v6.0.0#form-field-config-change-as-per-quml-spec-1.1)
+
 ### **Ekstep Contributor Scope:**[ **Link**](https://project-sunbird.atlassian.net/issues/?filter=12846\&jql=project%20%3D%20CO%20AND%20issuetype%20in%20\(Documentation-Issue%2C%20Epic%2C%20Minor-Enhancement%2C%20RFC\)%20AND%20status%20in%20\(%22In%20Progress%22%2C%20Closed%2C%20Done%2C%20%22In%20Development%22%2C%20%22In%20Validation%22%2C%20%22Selected%20for%20Contribution%22\)%20AND%20Sprint%20in%20\(490%2C%20491%2C%20449\)%20AND%20assignee%20in%20\(currentUser\(\)%2C%20640855d981de11a1adfc7b17\))
 
 ### **Test Cases:** [**Link**](https://docs.google.com/spreadsheets/d/1Wkq73Z3E7vZ8DK8J9o1GOAV4V0CmtdG97btzueEuVW8/edit#gid=863875922)
