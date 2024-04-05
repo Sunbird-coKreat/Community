@@ -1,9 +1,10 @@
-# coKreat- Release v6.0.0 (Latest release)
+# Release Notes
 
 | Release Date | Version |
 | ------------ | ------- |
 | 29 June 2023 | v6.0.0  |
 | 29 Sep 2023  | v6.0.1  |
+| 1 April 2024 | v6.0.2  |
 
 ### **Overview**
 
@@ -73,7 +74,7 @@ Test coverage percentage is now 38%
 
 | Service to be Build      | Build Tag     | Service to Deploy         | Deploy Tag         | Comments |
 | ------------------------ | ------------- | ------------------------- | ------------------ | -------- |
-| Build/Kubernetes/Player  | release-6.0.1 | Deploy/Kubernetes/Player  | release-6.0.1\_RC2 |          |
+| Build/Kubernetes/Player  | release-6.0.1 | Deploy/Kubernetes/Player  | release-6.0.1\_RC3 |          |
 | Build/Kubernetes/Program | release-6.0.1 | Deploy/Kubernetes/Program | release-6.0.1\_RC1 |          |
 
 ### Build Tags for other dependant BBs
