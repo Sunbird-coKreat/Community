@@ -59,6 +59,7 @@
   * [Contribution Registry](use/developer-guide/contribution-registry/README.md)
     * [Install locally](use/developer-guide/contribution-registry/install-locally.md)
   * [Flink Jobs](use/developer-guide/flink-jobs.md)
+  * [Reports](use/developer-guide/reports.md)
 * [Release Notes](use/release-notes.md)
 * [Learn More](use/learn-more/README.md)
   * [Dependencies](use/learn-more/dependencies.md)
