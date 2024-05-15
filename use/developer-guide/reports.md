@@ -4,17 +4,31 @@ As part of coKreat we are having following list of Reports for Admin user in [so
 
 Below are the list of reports that Admin user can see in sourcing portal
 
-* Collection Level reports against the project/program
-* Folder level report against the project/program&#x20;
+* Collection Level reports against the project/program (SourcingMetrics data)
+* Folder level report against the project/program  (SourcingMetrics data)
 * Visitors report&#x20;
 * Project level report
 * Content details report
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sourcing portal reports</p></figcaption></figure>
 
 ### Github Repo for Sourcing Portal reports
 
 {% embed url="https://github.com/Sunbird-Ed/sunbird-data-products/tree/5.1.0/data-products/src/main/scala/org/sunbird/analytics/sourcing" %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Sourcing portal reports</p></figcaption></figure>
+Build & Deploy:\
+\
+Jenkins:[https://10.20.0.14/jenkins/job/Deploy/job/DockStaging/job/DataPipeline/](https://10.20.0.14/jenkins/job/Deploy/job/DockStaging/job/DataPipeline/)
+
+{% embed url="https://github.com/Sunbird-Obsrv/sunbird-data-pipeline/blob/release-5.2.0/ansible/roles/data-products-deploy/templates/run-dock-job.j2" %}
+
+{% embed url="https://github.com/Sunbird-Obsrv/sunbird-data-pipeline/blob/release-5.2.0/ansible/roles/data-products-deploy/templates/model-dock-config.j2" %}
+
+DataSource -> vdn-content-model-snapshot in Druid
+
+Video:
+
+[View the introductory video here](https://drive.google.com/file/d/1g6f-ziir8MoK8RRLMcOT4psLz5PZflFK/view)
 
 ### Collection Level Content Gaps
 
