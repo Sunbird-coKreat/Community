@@ -26,9 +26,13 @@ Jenkins:[https://10.20.0.14/jenkins/job/Deploy/job/DockStaging/job/DataPipeline/
 
 DataSource -> vdn-content-model-snapshot in Druid
 
-Video:
+#### Video:
 
 [View the introductory video here](https://drive.google.com/file/d/1g6f-ziir8MoK8RRLMcOT4psLz5PZflFK/view)
+
+For more details about Hawk-eye/On-Demand reports refere the below Obsrv BB documentation
+
+[https://obsrv.sunbird.org/previous-versions/sb-5.0-version/learn/product-and-developer-guide/report-configurator](https://obsrv.sunbird.org/previous-versions/sb-5.0-version/learn/product-and-developer-guide/report-configurator)
 
 ### Collection Level Content Gaps
 
