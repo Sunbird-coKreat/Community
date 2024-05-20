@@ -24,7 +24,11 @@ Jenkins:[https://10.20.0.14/jenkins/job/Deploy/job/DockStaging/job/DataPipeline/
 
 {% embed url="https://github.com/Sunbird-Obsrv/sunbird-data-pipeline/blob/release-5.2.0/ansible/roles/data-products-deploy/templates/model-dock-config.j2" %}
 
-DataSource -> vdn-content-model-snapshot in Druid
+#### DataSource - In Druid
+
+* vdn-content-model-snapshot
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Video:
 
