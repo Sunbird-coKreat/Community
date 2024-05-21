@@ -24,11 +24,173 @@ Jenkins:[https://10.20.0.14/jenkins/job/Deploy/job/DockStaging/job/DataPipeline/
 
 {% embed url="https://github.com/Sunbird-Obsrv/sunbird-data-pipeline/blob/release-5.2.0/ansible/roles/data-products-deploy/templates/model-dock-config.j2" %}
 
-#### DataSource - In Druid
+#### DataSource( In Druid)
 
-* vdn-content-model-snapshot
+We have to configure the datasource in druid to index all the required fields for the sourcing admin-reports. Find the below details of Druid datasource.
+
+**DataSource - vdn-content-model-snapshot**
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+The above datasource is used to generate the admin reports(.csv) file for the below list of reports
+
+* Collection Level reports against the project/program (SourcingMetrics data)
+* Folder level report against the project/program  (SourcingMetrics data)
+* Project level report
+* Content details report
+
+Druid Datasource Settings
+
+Add the following JSON configuration to set up your Druid datasource:
+
+```json
+{
+    "binaryVersion": 9,
+    "dataSource": "vdn-content-model-snapshot",
+    "dimensions": "author,board,lastStatusChangedOn,collectionId,organisationId,acceptedContents,acceptedContributions,rejectedContents,rejectedContributions,chapterCount,mvcContentCount,sampleContent,unitIdentifiers,channel,originData,compatibilityLevel,contentType,createdBy,createdFor,createdOn,creator,framework,gradeLevel,identifier,keywords,language,lastPublishedBy,lastPublishedOn,lastSubmittedOn,lastUpdatedBy,lastUpdatedOn,license,mediaType,medium,mimeType,name,objectType,organisation,origin,owner,pkgVersion,resourceType,status,prevStatus,primaryCategory,subject,topic,version,programId,type,category,learningOutcome,qumlVersion,bloomsLevel,rejectComment,reusedContributions",
+    "identifier": "vdn-content-model-snapshot_2023-06-13T00:00:00.000Z_2023-06-14T00:00:00.000Z_2023-06-13T17:05:36.968Z",
+    "interval": "2023-06-13T00:00:00.000Z/2023-06-14T00:00:00.000Z",
+    "loadSpec": {
+        "blobPath": "vdn-content-model-snapshot/20230613T000000.000Z_20230614T000000.000Z/2023-06-13T17_05_36.968Z/0/index.zip",
+        "containerName": "telemetry-data-store",
+        "type": "azure"
+    },
+    "metrics": "me_audiosCount,me_averageInteractionsPerMin,me_averageRating,me_totalTimeSpentInPortal,me_totalTimeSpentInApp,me_totalTimeSpentInDesktop,me_totalPlaySessionCountInApp,me_totalPlaySessionCountInDesktop,me_totalPlaySessionCountInPortal,me_averageSessionsPerDevice,me_averageTimespentPerSession,me_avgCreationTsPerSession,me_creationSessions,me_creationTimespent,me_hierarchyLevel,me_imagesCount,me_timespentDraft,me_timespentReview,me_totalComments,me_totalDevices,me_totalDialcodeAttached,me_totalDialcodeLinkedToContent,me_totalDownloads,me_totalInteractions,me_totalRatings,me_totalSessionsCount,me_totalSideloads,me_totalTimespent,me_videosCount",
+    "shardSpec": {
+        "partitionNum": 0,
+        "partitions": 0,
+        "type": "numbered"
+    },
+    "size": 64465556,
+    "version": "2023-06-13T17:05:36.968Z"
+}
+```
+
+This configuration ensures the proper collection and indexing of the specified datasource fields for analysis.
+
+#### **"Visitors report" Configuration**
+
+For "Visitors report" we have to configure the report using "ReportConfigure" API. The \`reportId\`  is the key to identify the visitors report is configured or not&#x20;
+
+`"reportId": "vidyadaan_visitor"`
+
+API -&#x20;
+
+<pre class="language-powershell"><code class="lang-powershell"><strong>{{host}}api/data/v1/report/jobs/vidyadaan_visitor
+</strong></code></pre>
+
+body:
+
+```json
+{
+        "reportId": "vidyadaan_visitor",
+        "config": {
+            "reportConfig": {
+                "id": "vidyadaan_visitor",
+                "mergeConfig": {
+                    "rollupRange": 30,
+                    "rollupAge": "DAY",
+                    "postContainer": "reports",
+                    "container": "reports",
+                    "basePath": "/mount/data/analytics/tmp",
+                    "reportPath": "vidyadaan_visitor.csv",
+                    "rollupCol": "Date||%d-%m-%Y",
+                    "frequency": "DAILY",
+                    "rollup": 1
+                },
+                "labels": {
+                    "state": "Channel",
+                    "legend": "Visitors Count",
+                    "context_channel_slug": "Channel",
+                    "total_content_plays_on_portal": "No of Visitors",
+                    "total_count": "total_content_plays_on_portal"
+                },
+                "dateRange": {
+                    "staticInterval": "LastDay",
+                    "granularity": "day",
+                    "intervalSlider": 0
+                },
+                "metrics": [
+                    {
+                        "metric": "total_content_plays_on_portal",
+                        "label": "total_content_plays_on_portal",
+                        "druidQuery": {
+                            "dataSource": "telemetry-events-syncts",
+                            "filters": [
+                                {
+                                    "type": "equals",
+                                    "dimension": "edata_pageid",
+                                    "value": "contribution_all_projects"
+                                },
+                                {
+                                    "type": "equals",
+                                    "dimension": "eid",
+                                    "value": "IMPRESSION"
+                                },
+                                {
+                                    "type": "equals",
+                                    "dimension": "context_pdata_id",
+                                    "value": "prod.vidyadaan.portal"
+                                }
+                            ],
+                            "threshold": 10000,
+                            "granularity": "day",
+                            "dimensions": [
+                                {
+                                    "fieldName": "context_channel",
+                                    "outputName": "context_channel_slug",
+                                    "extractionFn": [
+                                        {
+                                            "type": "registeredLookup",
+                                            "retainMissingValue": true,
+                                            "fn": "channelSlugLookup"
+                                        }
+                                    ],
+                                    "type": "extraction",
+                                    "aliasName": "context_channel_slug"
+                                }
+                            ],
+                            "aggregations": [
+                                {
+                                    "name": "total_content_plays_on_portal",
+                                    "type": "count",
+                                    "fieldName": "count"
+                                }
+                            ],
+                            "postAggregations": [],
+                            "queryType": "groupBy"
+                        }
+                    }
+                ],
+                "output": [
+                    {
+                        "type": "csv",
+                        "metrics": [
+                            "total_content_plays_on_portal"
+                        ],
+                        "dims": [
+                            "context_channel_slug",
+                            "date"
+                        ],
+                        "fileParameters": [
+                            "id",
+                            "dims"
+                        ]
+                    }
+                ],
+                "queryType": "groupBy"
+            },
+            "store": "azure",
+            "container": "reports",
+            "key": "hawk-eye/"
+        },
+        "requestedBy": "analytics",
+        "reportDescription": "vidyadaan_visitor_report",
+        "status": "ACTIVE",
+        "status_msg": "REPORT SUCCESSFULLY ACTIVATED",
+        "reportSchedule": "Daily"
+    }
+```
 
 #### Video:
 
@@ -64,7 +226,13 @@ Sample report (data of FolderLevel.csv file) looks like below
 
 ### Visitors Report
 
+Sample report (data of VisitorsReport.csv file) looks like below
 
+| Date       | Channel | No of Visitors |
+| ---------- | ------- | -------------- |
+| 18-07-2022 | ekstep  | 7              |
+| 19-07-2022 | ekstep  | 1              |
+| 20-07-2022 | ekstep  | 9              |
 
 ### Project Level Report
 
