@@ -2,17 +2,14 @@
 
 | Release Date | Version |
 | ------------ | ------- |
-| 26 Jun 2024  | v6.0.2  |
-| 29 Sep 2023  | v6.0.1  |
+| 26 Jun 2023  | v6.0.1  |
 | 29 June 2023 | v6.0.0  |
 
 ### **Overview**
 
 v6.0.0 -> Angular upgrade of coKreat portal from 11-14 is done in this release.
 
-v6.0.1 -> This release majorly highlights the CSP changes and angular upgrades. coKreat is now cloud agnostic; it will run seamlessly on any cloud service.
-
-v6.0.2 -> This release has rigorously tested on Oracle Cloud Infrastructure (OCI). There was some fixes related to admin/org related reports  & OCI integration changes.
+v6.0.1 -> This release majorly highlights the CSP changes and angular upgrades. This release has rigorously tested on Oracle Cloud Infrastructure (OCI). There was some fixes related to admin/org related reports  & OCI integration changes.
 
 **6.0.2 issues fixed:**
 
