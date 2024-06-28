@@ -37,7 +37,6 @@
 * [Getting Started](use/getting-started/README.md)
   * [Deployment](use/getting-started/deployment/README.md)
     * [Deployment Diagram](use/getting-started/deployment/overview.md)
-  * [System requirements](use/getting-started/system-requirements.md)
   * [Install](use/getting-started/installation-document.md)
 * [Developer Guide](use/developer-guide/README.md)
   * [Reference coKreat Web APP](use/developer-guide/reference-cokreat-web-app/README.md)
