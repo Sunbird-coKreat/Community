@@ -1,8 +1,8 @@
 # Release Notes
 
-| Release Date     | Version |
-| ---------------- | ------- |
-| 20 December 2023 | v7.0.0  |
+| Release Date | Version |
+| ------------ | ------- |
+| 28 Jun 2024  | v7.0.0  |
 
 ### **Overview**
 
