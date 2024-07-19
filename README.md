@@ -1,6 +1,6 @@
 # Overview
 
-### Latest release v6.0.0
+### Release v6.0.0
 
 {% content-ref url="use/release-notes.md" %}
 [release-notes.md](use/release-notes.md)
